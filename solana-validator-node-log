@@ -1,0 +1,939 @@
+Feb 26 00:16:00 frhb56441ds su[6676]: Successful su for root by root
+Feb 26 00:16:00 frhb56441ds su[6676]: + ??? root:root
+Feb 26 00:16:00 frhb56441ds su[6676]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:16:00 frhb56441ds systemd-logind[1138]: New session c5429 of user root.
+Feb 26 00:16:00 frhb56441ds systemd[1]: Started Session c5429 of user root.
+Feb 26 00:16:03 frhb56441ds su[6676]: pam_unix(su:session): session closed for user root
+Feb 26 00:16:03 frhb56441ds sudo[6675]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:16:03 frhb56441ds systemd-logind[1138]: Removed session c5429.
+Feb 26 00:16:19 frhb56441ds sshd[6818]: Connection closed by 80.93.83.116 port 39376 [preauth]
+Feb 26 00:16:20 frhb56441ds sshd[6820]: Connection closed by 80.93.83.116 port 39389 [preauth]
+Feb 26 00:16:30 frhb56441ds sudo[6824]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:16:30 frhb56441ds sudo[6824]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:16:30 frhb56441ds su[6825]: Successful su for root by root
+Feb 26 00:16:30 frhb56441ds su[6825]: + ??? root:root
+Feb 26 00:16:30 frhb56441ds su[6825]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:16:30 frhb56441ds systemd[1]: Started Session c5430 of user root.
+Feb 26 00:16:30 frhb56441ds systemd-logind[1138]: New session c5430 of user root.
+Feb 26 00:16:33 frhb56441ds su[6825]: pam_unix(su:session): session closed for user root
+Feb 26 00:16:33 frhb56441ds sudo[6824]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:16:33 frhb56441ds systemd-logind[1138]: Removed session c5430.
+Feb 26 00:16:42 frhb56441ds sshd[6993]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:16:44 frhb56441ds sshd[6991]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:16:44 frhb56441ds sshd[6993]: Failed password for root from 178.62.182.246 port 52701 ssh2
+Feb 26 00:16:44 frhb56441ds sshd[6993]: Received disconnect from 178.62.182.246 port 52701:11: Bye Bye [preauth]
+Feb 26 00:16:44 frhb56441ds sshd[6993]: Disconnected from authenticating user root 178.62.182.246 port 52701 [preauth]
+Feb 26 00:16:47 frhb56441ds sshd[6991]: Failed password for root from 171.226.6.160 port 60832 ssh2
+Feb 26 00:16:47 frhb56441ds sshd[6991]: Connection closed by authenticating user root 171.226.6.160 port 60832 [preauth]Feb 26 00:16:49 frhb56441ds sshd[6997]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:16:52 frhb56441ds sshd[6997]: Failed password for root from 116.92.219.162 port 44056 ssh2
+Feb 26 00:16:52 frhb56441ds sshd[6997]: Received disconnect from 116.92.219.162 port 44056:11: Bye Bye [preauth]
+Feb 26 00:16:52 frhb56441ds sshd[6997]: Disconnected from authenticating user root 116.92.219.162 port 44056 [preauth]
+Feb 26 00:17:00 frhb56441ds sudo[7002]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:17:00 frhb56441ds sudo[7002]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:17:00 frhb56441ds su[7003]: Successful su for root by root
+Feb 26 00:17:00 frhb56441ds su[7003]: + ??? root:root
+Feb 26 00:17:00 frhb56441ds su[7003]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:17:00 frhb56441ds systemd[1]: Started Session c5431 of user root.
+Feb 26 00:17:00 frhb56441ds systemd-logind[1138]: New session c5431 of user root.
+Feb 26 00:17:01 frhb56441ds CRON[7044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 26 00:17:01 frhb56441ds CRON[7045]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 26 00:17:01 frhb56441ds CRON[7044]: pam_unix(cron:session): session closed for user root
+Feb 26 00:17:01 frhb56441ds sshd[7001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:17:03 frhb56441ds su[7003]: pam_unix(su:session): session closed for user root
+Feb 26 00:17:03 frhb56441ds sudo[7002]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:17:03 frhb56441ds systemd-logind[1138]: Removed session c5431.
+Feb 26 00:17:03 frhb56441ds sshd[7001]: Failed password for root from 116.113.17.210 port 44540 ssh2
+Feb 26 00:17:03 frhb56441ds sshd[7001]: Received disconnect from 116.113.17.210 port 44540:11: Bye Bye [preauth]
+Feb 26 00:17:03 frhb56441ds sshd[7001]: Disconnected from authenticating user root 116.113.17.210 port 44540 [preauth]
+Feb 26 00:17:06 frhb56441ds sshd[7162]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:17:08 frhb56441ds sshd[7162]: Failed password for root from 120.132.6.27 port 40759 ssh2
+Feb 26 00:17:09 frhb56441ds sshd[7162]: Received disconnect from 120.132.6.27 port 40759:11: Bye Bye [preauth]
+Feb 26 00:17:09 frhb56441ds sshd[7162]: Disconnected from authenticating user root 120.132.6.27 port 40759 [preauth]
+Feb 26 00:17:11 frhb56441ds sshd[7164]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:17:14 frhb56441ds sshd[7164]: Failed password for root from 138.68.176.38 port 58384 ssh2
+Feb 26 00:17:14 frhb56441ds sshd[7164]: Received disconnect from 138.68.176.38 port 58384:11: Bye Bye [preauth]
+Feb 26 00:17:14 frhb56441ds sshd[7164]: Disconnected from authenticating user root 138.68.176.38 port 58384 [preauth]
+Feb 26 00:17:19 frhb56441ds sshd[7168]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:17:20 frhb56441ds sshd[7170]: Connection closed by 80.93.83.116 port 42888 [preauth]
+Feb 26 00:17:22 frhb56441ds sshd[7168]: Failed password for root from 117.196.195.60 port 1138 ssh2
+Feb 26 00:17:22 frhb56441ds sshd[7168]: Received disconnect from 117.196.195.60 port 1138:11: Bye Bye [preauth]
+Feb 26 00:17:22 frhb56441ds sshd[7168]: Disconnected from authenticating user root 117.196.195.60 port 1138 [preauth]
+Feb 26 00:17:24 frhb56441ds sshd[7172]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:17:26 frhb56441ds sshd[7172]: Failed password for root from 1.226.12.132 port 42736 ssh2
+Feb 26 00:17:26 frhb56441ds sshd[7172]: Received disconnect from 1.226.12.132 port 42736:11: Bye Bye [preauth]
+Feb 26 00:17:26 frhb56441ds sshd[7172]: Disconnected from authenticating user root 1.226.12.132 port 42736 [preauth]
+Feb 26 00:17:30 frhb56441ds sudo[7176]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:17:30 frhb56441ds sudo[7176]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:17:30 frhb56441ds su[7177]: Successful su for root by root
+Feb 26 00:17:30 frhb56441ds su[7177]: + ??? root:root
+Feb 26 00:17:30 frhb56441ds su[7177]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:17:30 frhb56441ds systemd-logind[1138]: New session c5432 of user root.
+Feb 26 00:17:30 frhb56441ds systemd[1]: Started Session c5432 of user root.
+Feb 26 00:17:33 frhb56441ds su[7177]: pam_unix(su:session): session closed for user root
+Feb 26 00:17:33 frhb56441ds sudo[7176]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:17:33 frhb56441ds systemd-logind[1138]: Removed session c5432.
+Feb 26 00:17:34 frhb56441ds sshd[7581]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:17:37 frhb56441ds sshd[7581]: Failed password for root from 49.233.68.90 port 32285 ssh2
+Feb 26 00:17:37 frhb56441ds sshd[7581]: Received disconnect from 49.233.68.90 port 32285:11: Bye Bye [preauth]
+Feb 26 00:17:37 frhb56441ds sshd[7581]: Disconnected from authenticating user root 49.233.68.90 port 32285 [preauth]
+Feb 26 00:17:50 frhb56441ds sshd[7600]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:17:52 frhb56441ds sshd[7600]: Failed password for root from 13.71.46.226 port 1024 ssh2
+Feb 26 00:17:52 frhb56441ds sshd[7600]: Received disconnect from 13.71.46.226 port 1024:11: Bye Bye [preauth]
+Feb 26 00:17:52 frhb56441ds sshd[7600]: Disconnected from authenticating user root 13.71.46.226 port 1024 [preauth]
+Feb 26 00:18:00 frhb56441ds sudo[7604]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:18:00 frhb56441ds sudo[7604]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:18:00 frhb56441ds su[7605]: Successful su for root by root
+Feb 26 00:18:00 frhb56441ds su[7605]: + ??? root:root
+Feb 26 00:18:00 frhb56441ds su[7605]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:18:00 frhb56441ds systemd-logind[1138]: New session c5433 of user root.
+Feb 26 00:18:00 frhb56441ds systemd[1]: Started Session c5433 of user root.
+Feb 26 00:18:00 frhb56441ds sshd[7631]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:18:02 frhb56441ds sshd[7631]: Failed password for root from 178.62.182.246 port 34302 ssh2
+Feb 26 00:18:02 frhb56441ds sshd[7631]: Received disconnect from 178.62.182.246 port 34302:11: Bye Bye [preauth]
+Feb 26 00:18:02 frhb56441ds sshd[7631]: Disconnected from authenticating user root 178.62.182.246 port 34302 [preauth]
+Feb 26 00:18:03 frhb56441ds su[7605]: pam_unix(su:session): session closed for user root
+Feb 26 00:18:03 frhb56441ds sudo[7604]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:18:03 frhb56441ds systemd-logind[1138]: Removed session c5433.
+Feb 26 00:18:19 frhb56441ds sshd[7744]: Connection closed by 80.93.83.116 port 46342 [preauth]
+Feb 26 00:18:20 frhb56441ds sshd[7746]: Connection closed by 80.93.83.116 port 46380 [preauth]
+Feb 26 00:18:26 frhb56441ds sshd[7750]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:18:28 frhb56441ds sshd[7750]: Failed password for root from 42.192.37.232 port 37216 ssh2
+Feb 26 00:18:28 frhb56441ds sshd[7750]: Received disconnect from 42.192.37.232 port 37216:11: Bye Bye [preauth]
+Feb 26 00:18:28 frhb56441ds sshd[7750]: Disconnected from authenticating user root 42.192.37.232 port 37216 [preauth]
+Feb 26 00:18:30 frhb56441ds sudo[7752]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:18:30 frhb56441ds sudo[7752]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:18:30 frhb56441ds su[7753]: Successful su for root by root
+Feb 26 00:18:30 frhb56441ds su[7753]: + ??? root:root
+Feb 26 00:18:30 frhb56441ds su[7753]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:18:30 frhb56441ds systemd-logind[1138]: New session c5434 of user root.
+Feb 26 00:18:30 frhb56441ds systemd[1]: Started Session c5434 of user root.
+Feb 26 00:18:33 frhb56441ds su[7753]: pam_unix(su:session): session closed for user root
+Feb 26 00:18:33 frhb56441ds sudo[7752]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:18:33 frhb56441ds systemd-logind[1138]: Removed session c5434.
+Feb 26 00:18:44 frhb56441ds sshd[7889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:18:45 frhb56441ds sshd[7893]: Connection closed by authenticating user root 68.183.128.56 port 55638 [preauth]Feb 26 00:18:45 frhb56441ds sshd[7895]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:18:46 frhb56441ds sshd[7889]: Failed password for root from 165.22.98.186 port 40976 ssh2
+Feb 26 00:18:46 frhb56441ds sshd[7889]: Received disconnect from 165.22.98.186 port 40976:11: Bye Bye [preauth]
+Feb 26 00:18:46 frhb56441ds sshd[7889]: Disconnected from authenticating user root 165.22.98.186 port 40976 [preauth]
+Feb 26 00:18:47 frhb56441ds sshd[7895]: Failed password for root from 68.183.128.56 port 55668 ssh2
+Feb 26 00:18:49 frhb56441ds sshd[7895]: Failed password for root from 68.183.128.56 port 55668 ssh2
+Feb 26 00:18:51 frhb56441ds sshd[7895]: Failed password for root from 68.183.128.56 port 55668 ssh2
+Feb 26 00:18:53 frhb56441ds sshd[7895]: Failed password for root from 68.183.128.56 port 55668 ssh2
+Feb 26 00:18:53 frhb56441ds sshd[7897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:18:55 frhb56441ds sshd[7897]: Failed password for root from 113.31.119.122 port 39708 ssh2
+Feb 26 00:18:55 frhb56441ds sshd[7895]: Failed password for root from 68.183.128.56 port 55668 ssh2
+Feb 26 00:18:55 frhb56441ds sshd[7897]: Received disconnect from 113.31.119.122 port 39708:11: Bye Bye [preauth]
+Feb 26 00:18:55 frhb56441ds sshd[7897]: Disconnected from authenticating user root 113.31.119.122 port 39708 [preauth]
+Feb 26 00:18:57 frhb56441ds sshd[7895]: Failed password for root from 68.183.128.56 port 55668 ssh2
+Feb 26 00:18:57 frhb56441ds sshd[7895]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:18:57 frhb56441ds sshd[7895]: Disconnecting authenticating user root 68.183.128.56 port 55668: Too many authenFeb 26 00:18:57 frhb56441ds sshd[7895]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:18:57 frhb56441ds sshd[7895]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:18:58 frhb56441ds sshd[7901]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:00 frhb56441ds sudo[7903]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:19:00 frhb56441ds sudo[7903]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:19:00 frhb56441ds su[7904]: Successful su for root by root
+Feb 26 00:19:00 frhb56441ds su[7904]: + ??? root:root
+Feb 26 00:19:00 frhb56441ds su[7904]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:19:00 frhb56441ds systemd-logind[1138]: New session c5435 of user root.
+Feb 26 00:19:00 frhb56441ds systemd[1]: Started Session c5435 of user root.
+Feb 26 00:19:00 frhb56441ds sshd[7901]: Failed password for root from 68.183.128.56 port 56498 ssh2
+Feb 26 00:19:01 frhb56441ds sshd[7901]: Failed password for root from 68.183.128.56 port 56498 ssh2
+Feb 26 00:19:03 frhb56441ds su[7904]: pam_unix(su:session): session closed for user root
+Feb 26 00:19:03 frhb56441ds sudo[7903]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:19:03 frhb56441ds systemd-logind[1138]: Removed session c5435.
+Feb 26 00:19:04 frhb56441ds sshd[7901]: Failed password for root from 68.183.128.56 port 56498 ssh2
+Feb 26 00:19:06 frhb56441ds sshd[7901]: Failed password for root from 68.183.128.56 port 56498 ssh2
+Feb 26 00:19:06 frhb56441ds sshd[8039]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:06 frhb56441ds sshd[8040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:08 frhb56441ds sshd[8039]: Failed password for root from 1.226.12.132 port 40758 ssh2
+Feb 26 00:19:08 frhb56441ds sshd[8040]: Failed password for root from 49.233.68.90 port 56363 ssh2
+Feb 26 00:19:08 frhb56441ds sshd[7901]: Failed password for root from 68.183.128.56 port 56498 ssh2
+Feb 26 00:19:08 frhb56441ds sshd[8039]: Received disconnect from 1.226.12.132 port 40758:11: Bye Bye [preauth]
+Feb 26 00:19:08 frhb56441ds sshd[8039]: Disconnected from authenticating user root 1.226.12.132 port 40758 [preauth]
+Feb 26 00:19:08 frhb56441ds sshd[8040]: Received disconnect from 49.233.68.90 port 56363:11: Bye Bye [preauth]
+Feb 26 00:19:08 frhb56441ds sshd[8040]: Disconnected from authenticating user root 49.233.68.90 port 56363 [preauth]
+Feb 26 00:19:10 frhb56441ds sshd[8043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:10 frhb56441ds sshd[7901]: Failed password for root from 68.183.128.56 port 56498 ssh2
+Feb 26 00:19:10 frhb56441ds sshd[7901]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:19:10 frhb56441ds sshd[7901]: Disconnecting authenticating user root 68.183.128.56 port 56498: Too many authenFeb 26 00:19:10 frhb56441ds sshd[7901]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:19:10 frhb56441ds sshd[7901]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:19:11 frhb56441ds sshd[8045]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:12 frhb56441ds sshd[8043]: Failed password for root from 110.172.174.249 port 60172 ssh2
+Feb 26 00:19:12 frhb56441ds sshd[8043]: Received disconnect from 110.172.174.249 port 60172:11: Bye Bye [preauth]
+Feb 26 00:19:12 frhb56441ds sshd[8043]: Disconnected from authenticating user root 110.172.174.249 port 60172 [preauth]
+Feb 26 00:19:13 frhb56441ds sshd[8045]: Failed password for root from 68.183.128.56 port 57368 ssh2
+Feb 26 00:19:15 frhb56441ds sshd[8045]: Failed password for root from 68.183.128.56 port 57368 ssh2
+Feb 26 00:19:18 frhb56441ds sshd[8045]: Failed password for root from 68.183.128.56 port 57368 ssh2
+Feb 26 00:19:20 frhb56441ds sshd[8045]: Failed password for root from 68.183.128.56 port 57368 ssh2
+Feb 26 00:19:20 frhb56441ds sshd[8049]: Connection closed by 80.93.83.116 port 49982 [preauth]
+Feb 26 00:19:20 frhb56441ds sshd[8051]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:22 frhb56441ds sshd[8045]: Failed password for root from 68.183.128.56 port 57368 ssh2
+Feb 26 00:19:22 frhb56441ds sshd[8051]: Failed password for root from 178.62.182.246 port 44135 ssh2
+Feb 26 00:19:22 frhb56441ds sshd[8051]: Received disconnect from 178.62.182.246 port 44135:11: Bye Bye [preauth]
+Feb 26 00:19:22 frhb56441ds sshd[8051]: Disconnected from authenticating user root 178.62.182.246 port 44135 [preauth]
+Feb 26 00:19:24 frhb56441ds sshd[8045]: Failed password for root from 68.183.128.56 port 57368 ssh2
+Feb 26 00:19:24 frhb56441ds sshd[8045]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:19:24 frhb56441ds sshd[8045]: Disconnecting authenticating user root 68.183.128.56 port 57368: Too many authenFeb 26 00:19:24 frhb56441ds sshd[8045]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:19:24 frhb56441ds sshd[8045]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:19:24 frhb56441ds sshd[8055]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:26 frhb56441ds sshd[8055]: Failed password for root from 68.183.128.56 port 58236 ssh2
+Feb 26 00:19:28 frhb56441ds sshd[8055]: Failed password for root from 68.183.128.56 port 58236 ssh2
+Feb 26 00:19:30 frhb56441ds sudo[8057]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:19:30 frhb56441ds sudo[8057]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:19:30 frhb56441ds su[8058]: Successful su for root by root
+Feb 26 00:19:30 frhb56441ds su[8058]: + ??? root:root
+Feb 26 00:19:30 frhb56441ds su[8058]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:19:30 frhb56441ds systemd-logind[1138]: New session c5436 of user root.
+Feb 26 00:19:30 frhb56441ds systemd[1]: Started Session c5436 of user root.
+Feb 26 00:19:30 frhb56441ds sshd[8055]: Failed password for root from 68.183.128.56 port 58236 ssh2
+Feb 26 00:19:32 frhb56441ds sshd[8055]: Failed password for root from 68.183.128.56 port 58236 ssh2
+Feb 26 00:19:33 frhb56441ds su[8058]: pam_unix(su:session): session closed for user root
+Feb 26 00:19:33 frhb56441ds sudo[8057]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:19:33 frhb56441ds systemd-logind[1138]: Removed session c5436.
+Feb 26 00:19:34 frhb56441ds sshd[8055]: Failed password for root from 68.183.128.56 port 58236 ssh2
+Feb 26 00:19:36 frhb56441ds sshd[8055]: Failed password for root from 68.183.128.56 port 58236 ssh2
+Feb 26 00:19:36 frhb56441ds sshd[8055]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:19:36 frhb56441ds sshd[8055]: Disconnecting authenticating user root 68.183.128.56 port 58236: Too many authenFeb 26 00:19:36 frhb56441ds sshd[8055]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:19:36 frhb56441ds sshd[8055]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:19:36 frhb56441ds sshd[8195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:38 frhb56441ds sshd[8195]: Failed password for root from 68.183.128.56 port 59054 ssh2
+Feb 26 00:19:38 frhb56441ds sshd[8198]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:39 frhb56441ds sshd[8197]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:40 frhb56441ds sshd[8198]: Failed password for root from 138.68.176.38 port 43502 ssh2
+Feb 26 00:19:40 frhb56441ds sshd[8195]: Failed password for root from 68.183.128.56 port 59054 ssh2
+Feb 26 00:19:40 frhb56441ds sshd[8198]: Received disconnect from 138.68.176.38 port 43502:11: Bye Bye [preauth]
+Feb 26 00:19:40 frhb56441ds sshd[8198]: Disconnected from authenticating user root 138.68.176.38 port 43502 [preauth]
+Feb 26 00:19:41 frhb56441ds sshd[8197]: Failed password for root from 116.113.17.210 port 32956 ssh2
+Feb 26 00:19:41 frhb56441ds sshd[8197]: Received disconnect from 116.113.17.210 port 32956:11: Bye Bye [preauth]
+Feb 26 00:19:41 frhb56441ds sshd[8197]: Disconnected from authenticating user root 116.113.17.210 port 32956 [preauth]
+Feb 26 00:19:42 frhb56441ds sshd[8195]: Failed password for root from 68.183.128.56 port 59054 ssh2
+Feb 26 00:19:42 frhb56441ds sshd[8195]: Failed password for root from 68.183.128.56 port 59054 ssh2
+Feb 26 00:19:44 frhb56441ds sshd[8195]: Failed password for root from 68.183.128.56 port 59054 ssh2
+Feb 26 00:19:46 frhb56441ds sshd[8195]: Failed password for root from 68.183.128.56 port 59054 ssh2
+Feb 26 00:19:46 frhb56441ds sshd[8195]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:19:46 frhb56441ds sshd[8195]: Disconnecting authenticating user root 68.183.128.56 port 59054: Too many authenFeb 26 00:19:46 frhb56441ds sshd[8195]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:19:46 frhb56441ds sshd[8195]: PAM service(sshd) ignoring max retries; 5 > 3
+Feb 26 00:19:47 frhb56441ds sshd[8203]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:48 frhb56441ds sshd[8203]: Failed password for root from 68.183.128.56 port 59746 ssh2
+Feb 26 00:19:50 frhb56441ds sshd[8205]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:19:50 frhb56441ds sshd[8203]: Failed password for root from 68.183.128.56 port 59746 ssh2
+Feb 26 00:19:52 frhb56441ds sshd[8205]: Failed password for root from 120.132.6.27 port 60822 ssh2
+Feb 26 00:19:52 frhb56441ds sshd[8203]: Failed password for root from 68.183.128.56 port 59746 ssh2
+Feb 26 00:19:52 frhb56441ds sshd[8205]: Received disconnect from 120.132.6.27 port 60822:11: Bye Bye [preauth]
+Feb 26 00:19:52 frhb56441ds sshd[8205]: Disconnected from authenticating user root 120.132.6.27 port 60822 [preauth]
+Feb 26 00:19:54 frhb56441ds sshd[8203]: Failed password for root from 68.183.128.56 port 59746 ssh2
+Feb 26 00:19:56 frhb56441ds sshd[8203]: Failed password for root from 68.183.128.56 port 59746 ssh2
+Feb 26 00:19:58 frhb56441ds sshd[8203]: Failed password for root from 68.183.128.56 port 59746 ssh2
+Feb 26 00:19:58 frhb56441ds sshd[8203]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:19:58 frhb56441ds sshd[8203]: Disconnecting authenticating user root 68.183.128.56 port 59746: Too many authenFeb 26 00:19:58 frhb56441ds sshd[8203]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:19:58 frhb56441ds sshd[8203]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:19:59 frhb56441ds sshd[8209]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:00 frhb56441ds sudo[8211]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:20:00 frhb56441ds sudo[8211]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:20:00 frhb56441ds systemd-logind[1138]: New session c5437 of user root.
+Feb 26 00:20:00 frhb56441ds su[8213]: Successful su for root by root
+Feb 26 00:20:00 frhb56441ds systemd[1]: Started Session c5437 of user root.
+Feb 26 00:20:00 frhb56441ds su[8213]: + ??? root:root
+Feb 26 00:20:00 frhb56441ds su[8213]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:20:00 frhb56441ds sshd[8209]: Failed password for root from 68.183.128.56 port 60576 ssh2
+Feb 26 00:20:02 frhb56441ds sshd[8209]: Failed password for root from 68.183.128.56 port 60576 ssh2
+Feb 26 00:20:03 frhb56441ds su[8213]: pam_unix(su:session): session closed for user root
+Feb 26 00:20:03 frhb56441ds sudo[8211]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:20:03 frhb56441ds systemd-logind[1138]: Removed session c5437.
+Feb 26 00:20:04 frhb56441ds sshd[8209]: Failed password for root from 68.183.128.56 port 60576 ssh2
+Feb 26 00:20:06 frhb56441ds sshd[8209]: Failed password for root from 68.183.128.56 port 60576 ssh2
+Feb 26 00:20:07 frhb56441ds sshd[8209]: Failed password for root from 68.183.128.56 port 60576 ssh2
+Feb 26 00:20:09 frhb56441ds sshd[8209]: Failed password for root from 68.183.128.56 port 60576 ssh2
+Feb 26 00:20:09 frhb56441ds sshd[8209]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:09 frhb56441ds sshd[8209]: Disconnecting authenticating user root 68.183.128.56 port 60576: Too many authenFeb 26 00:20:09 frhb56441ds sshd[8209]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:09 frhb56441ds sshd[8209]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:10 frhb56441ds sshd[8350]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:12 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:14 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:14 frhb56441ds sshd[8354]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:16 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:16 frhb56441ds sshd[8354]: Failed password for root from 117.196.195.60 port 3908 ssh2
+Feb 26 00:20:16 frhb56441ds sshd[8354]: Received disconnect from 117.196.195.60 port 3908:11: Bye Bye [preauth]
+Feb 26 00:20:16 frhb56441ds sshd[8354]: Disconnected from authenticating user root 117.196.195.60 port 3908 [preauth]
+Feb 26 00:20:18 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:19 frhb56441ds sshd[8356]: Connection closed by 80.93.83.116 port 53420 [preauth]
+Feb 26 00:20:19 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:20 frhb56441ds sshd[8358]: Connection closed by 80.93.83.116 port 53463 [preauth]
+Feb 26 00:20:22 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:22 frhb56441ds sshd[8350]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:22 frhb56441ds sshd[8350]: Disconnecting authenticating user root 68.183.128.56 port 33112: Too many authenFeb 26 00:20:22 frhb56441ds sshd[8350]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:22 frhb56441ds sshd[8350]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:22 frhb56441ds sshd[8360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:24 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:26 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:28 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:30 frhb56441ds sudo[8364]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:20:30 frhb56441ds sudo[8364]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:20:30 frhb56441ds su[8365]: Successful su for root by root
+Feb 26 00:20:30 frhb56441ds su[8365]: + ??? root:root
+Feb 26 00:20:30 frhb56441ds su[8365]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:20:30 frhb56441ds systemd-logind[1138]: New session c5438 of user root.
+Feb 26 00:20:30 frhb56441ds systemd[1]: Started Session c5438 of user root.
+Feb 26 00:20:30 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:32 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:33 frhb56441ds su[8365]: pam_unix(su:session): session closed for user root
+Feb 26 00:20:33 frhb56441ds sudo[8364]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:20:33 frhb56441ds systemd-logind[1138]: Removed session c5438.
+Feb 26 00:20:34 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:34 frhb56441ds sshd[8360]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:34 frhb56441ds sshd[8360]: Disconnecting authenticating user root 68.183.128.56 port 33974: Too many authenFeb 26 00:20:34 frhb56441ds sshd[8360]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:34 frhb56441ds sshd[8360]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:35 frhb56441ds sshd[8501]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:35 frhb56441ds sshd[8504]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:36 frhb56441ds sshd[8500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:37 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Failed password for root from 178.62.182.246 port 53969 ssh2
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Received disconnect from 178.62.182.246 port 53969:11: Bye Bye [preauth]
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Disconnected from authenticating user root 178.62.182.246 port 53969 [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Failed password for root from 49.233.68.90 port 23924 ssh2
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Received disconnect from 49.233.68.90 port 23924:11: Bye Bye [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Disconnected from authenticating user root 49.233.68.90 port 23924 [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:41 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:42 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:44 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:46 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:46 frhb56441ds sshd[8501]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:46 frhb56441ds sshd[8501]: Disconnecting authenticating user root 68.183.128.56 port 34836: Too many authenFeb 26 00:20:46 frhb56441ds sshd[8501]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:46 frhb56441ds sshd[8501]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:46 frhb56441ds sshd[8510]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:47 frhb56441ds sshd[8508]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:48 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Failed password for root from 1.226.12.132 port 38348 ssh2
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Received disconnect from 1.226.12.132 port 38348:11: Bye Bye [preauth]
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Disconnected from authenticating user root 1.226.12.132 port 38348 [preauth]
+Feb 26 00:20:50 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:52 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:54 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:56 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:59 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:59 frhb56441ds sshd[8510]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:59 frhb56441ds sshd[8510]: Disconnecting authenticating user root 68.183.128.56 port 35614: Too many authenFeb 26 00:20:59 frhb56441ds sshd[8510]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:59 frhb56441ds sshd[8510]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:59 frhb56441ds sshd[8514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:00 frhb56441ds sudo[8520]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:21:00 frhb56441ds sudo[8520]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:21:00 frhb56441ds su[8521]: Successful su for root by root
+Feb 26 00:21:00 frhb56441ds su[8521]: + ??? root:root
+Feb 26 00:21:00 frhb56441ds su[8521]: pam_unix(su:session): session opened for user root by (uid=0)
+ ESCOD
+Feb 26 00:20:19 frhb56441ds sshd[8356]: Connection closed by 80.93.83.116 port 53420 [preauth]
+Feb 26 00:20:19 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:20 frhb56441ds sshd[8358]: Connection closed by 80.93.83.116 port 53463 [preauth]
+Feb 26 00:20:22 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:22 frhb56441ds sshd[8350]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:22 frhb56441ds sshd[8350]: Disconnecting authenticating user root 68.183.128.56 port 33112: Too many authenFeb 26 00:20:22 frhb56441ds sshd[8350]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:22 frhb56441ds sshd[8350]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:22 frhb56441ds sshd[8360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:24 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:26 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:28 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:30 frhb56441ds sudo[8364]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:20:30 frhb56441ds sudo[8364]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:20:30 frhb56441ds su[8365]: Successful su for root by root
+Feb 26 00:20:30 frhb56441ds su[8365]: + ??? root:root
+Feb 26 00:20:30 frhb56441ds su[8365]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:20:30 frhb56441ds systemd-logind[1138]: New session c5438 of user root.
+Feb 26 00:20:30 frhb56441ds systemd[1]: Started Session c5438 of user root.
+Feb 26 00:20:30 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:32 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:33 frhb56441ds su[8365]: pam_unix(su:session): session closed for user root
+Feb 26 00:20:33 frhb56441ds sudo[8364]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:20:33 frhb56441ds systemd-logind[1138]: Removed session c5438.
+Feb 26 00:20:34 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:34 frhb56441ds sshd[8360]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:34 frhb56441ds sshd[8360]: Disconnecting authenticating user root 68.183.128.56 port 33974: Too many authenFeb 26 00:20:34 frhb56441ds sshd[8360]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:34 frhb56441ds sshd[8360]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:35 frhb56441ds sshd[8501]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:35 frhb56441ds sshd[8504]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:36 frhb56441ds sshd[8500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:37 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Failed password for root from 178.62.182.246 port 53969 ssh2
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Received disconnect from 178.62.182.246 port 53969:11: Bye Bye [preauth]
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Disconnected from authenticating user root 178.62.182.246 port 53969 [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Failed password for root from 49.233.68.90 port 23924 ssh2
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Received disconnect from 49.233.68.90 port 23924:11: Bye Bye [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Disconnected from authenticating user root 49.233.68.90 port 23924 [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:41 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:42 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:44 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:46 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:46 frhb56441ds sshd[8501]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:46 frhb56441ds sshd[8501]: Disconnecting authenticating user root 68.183.128.56 port 34836: Too many authenFeb 26 00:20:46 frhb56441ds sshd[8501]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:46 frhb56441ds sshd[8501]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:46 frhb56441ds sshd[8510]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:47 frhb56441ds sshd[8508]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:48 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Failed password for root from 1.226.12.132 port 38348 ssh2
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Received disconnect from 1.226.12.132 port 38348:11: Bye Bye [preauth]
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Disconnected from authenticating user root 1.226.12.132 port 38348 [preauth]
+Feb 26 00:20:50 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:52 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:54 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:56 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:59 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:59 frhb56441ds sshd[8510]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:59 frhb56441ds sshd[8510]: Disconnecting authenticating user root 68.183.128.56 port 35614: Too many authenFeb 26 00:20:59 frhb56441ds sshd[8510]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:59 frhb56441ds sshd[8510]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:59 frhb56441ds sshd[8514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:00 frhb56441ds sudo[8520]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:21:00 frhb56441ds sudo[8520]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:21:00 frhb56441ds su[8521]: Successful su for root by root
+Feb 26 00:21:00 frhb56441ds su[8521]: + ??? root:root
+Feb 26 00:21:00 frhb56441ds su[8521]: pam_unix(su:session): session opened for user root by (uid=0)
+ ESCOD
+Feb 26 00:20:19 frhb56441ds sshd[8356]: Connection closed by 80.93.83.116 port 53420 [preauth]
+Feb 26 00:20:19 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:20 frhb56441ds sshd[8358]: Connection closed by 80.93.83.116 port 53463 [preauth]
+Feb 26 00:20:22 frhb56441ds sshd[8350]: Failed password for root from 68.183.128.56 port 33112 ssh2
+Feb 26 00:20:22 frhb56441ds sshd[8350]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:22 frhb56441ds sshd[8350]: Disconnecting authenticating user root 68.183.128.56 port 33112: Too many authenFeb 26 00:20:22 frhb56441ds sshd[8350]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:22 frhb56441ds sshd[8350]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:22 frhb56441ds sshd[8360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:24 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:26 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:28 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:30 frhb56441ds sudo[8364]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:20:30 frhb56441ds sudo[8364]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:20:30 frhb56441ds su[8365]: Successful su for root by root
+Feb 26 00:20:30 frhb56441ds su[8365]: + ??? root:root
+Feb 26 00:20:30 frhb56441ds su[8365]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:20:30 frhb56441ds systemd-logind[1138]: New session c5438 of user root.
+Feb 26 00:20:30 frhb56441ds systemd[1]: Started Session c5438 of user root.
+Feb 26 00:20:30 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:32 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:33 frhb56441ds su[8365]: pam_unix(su:session): session closed for user root
+Feb 26 00:20:33 frhb56441ds sudo[8364]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:20:33 frhb56441ds systemd-logind[1138]: Removed session c5438.
+Feb 26 00:20:34 frhb56441ds sshd[8360]: Failed password for root from 68.183.128.56 port 33974 ssh2
+Feb 26 00:20:34 frhb56441ds sshd[8360]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:34 frhb56441ds sshd[8360]: Disconnecting authenticating user root 68.183.128.56 port 33974: Too many authenFeb 26 00:20:34 frhb56441ds sshd[8360]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:34 frhb56441ds sshd[8360]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:35 frhb56441ds sshd[8501]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:35 frhb56441ds sshd[8504]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:36 frhb56441ds sshd[8500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:37 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Failed password for root from 178.62.182.246 port 53969 ssh2
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Received disconnect from 178.62.182.246 port 53969:11: Bye Bye [preauth]
+Feb 26 00:20:37 frhb56441ds sshd[8504]: Disconnected from authenticating user root 178.62.182.246 port 53969 [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Failed password for root from 49.233.68.90 port 23924 ssh2
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Received disconnect from 49.233.68.90 port 23924:11: Bye Bye [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8500]: Disconnected from authenticating user root 49.233.68.90 port 23924 [preauth]
+Feb 26 00:20:38 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:41 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:42 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:44 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:46 frhb56441ds sshd[8501]: Failed password for root from 68.183.128.56 port 34836 ssh2
+Feb 26 00:20:46 frhb56441ds sshd[8501]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:46 frhb56441ds sshd[8501]: Disconnecting authenticating user root 68.183.128.56 port 34836: Too many authenFeb 26 00:20:46 frhb56441ds sshd[8501]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:46 frhb56441ds sshd[8501]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:46 frhb56441ds sshd[8510]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:47 frhb56441ds sshd[8508]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:20:48 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Failed password for root from 1.226.12.132 port 38348 ssh2
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Received disconnect from 1.226.12.132 port 38348:11: Bye Bye [preauth]
+Feb 26 00:20:49 frhb56441ds sshd[8508]: Disconnected from authenticating user root 1.226.12.132 port 38348 [preauth]
+Feb 26 00:20:50 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:52 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:54 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:56 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:59 frhb56441ds sshd[8510]: Failed password for root from 68.183.128.56 port 35614 ssh2
+Feb 26 00:20:59 frhb56441ds sshd[8510]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:20:59 frhb56441ds sshd[8510]: Disconnecting authenticating user root 68.183.128.56 port 35614: Too many authenFeb 26 00:20:59 frhb56441ds sshd[8510]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:20:59 frhb56441ds sshd[8510]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:20:59 frhb56441ds sshd[8514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:00 frhb56441ds sudo[8520]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:21:00 frhb56441ds sudo[8520]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:21:00 frhb56441ds su[8521]: Successful su for root by root
+Feb 26 00:21:00 frhb56441ds su[8521]: + ??? root:root
+Feb 26 00:21:00 frhb56441ds su[8521]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:21:00 frhb56441ds systemd[1]: Started Session c5439 of user root.
+Feb 26 00:21:00 frhb56441ds systemd-logind[1138]: New session c5439 of user root.
+Feb 26 00:21:00 frhb56441ds sshd[8517]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:00 frhb56441ds sshd[8516]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:01 frhb56441ds sshd[8514]: Failed password for root from 13.71.46.226 port 1024 ssh2
+Feb 26 00:21:01 frhb56441ds sshd[8514]: Received disconnect from 13.71.46.226 port 1024:11: Bye Bye [preauth]
+Feb 26 00:21:01 frhb56441ds sshd[8514]: Disconnected from authenticating user root 13.71.46.226 port 1024 [preauth]
+Feb 26 00:21:01 frhb56441ds sshd[8517]: Failed password for root from 68.183.128.56 port 36494 ssh2
+Feb 26 00:21:02 frhb56441ds sshd[8516]: Failed password for root from 116.92.219.162 port 53342 ssh2
+Feb 26 00:21:02 frhb56441ds sshd[8516]: Received disconnect from 116.92.219.162 port 53342:11: Bye Bye [preauth]
+Feb 26 00:21:02 frhb56441ds sshd[8516]: Disconnected from authenticating user root 116.92.219.162 port 53342 [preauth]
+Feb 26 00:21:03 frhb56441ds su[8521]: pam_unix(su:session): session closed for user root
+Feb 26 00:21:03 frhb56441ds sudo[8520]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:21:03 frhb56441ds systemd-logind[1138]: Removed session c5439.
+Feb 26 00:21:03 frhb56441ds sshd[8517]: Failed password for root from 68.183.128.56 port 36494 ssh2
+Feb 26 00:21:05 frhb56441ds sshd[8517]: Failed password for root from 68.183.128.56 port 36494 ssh2
+Feb 26 00:21:07 frhb56441ds sshd[8517]: Failed password for root from 68.183.128.56 port 36494 ssh2
+Feb 26 00:21:09 frhb56441ds sshd[8517]: Failed password for root from 68.183.128.56 port 36494 ssh2
+Feb 26 00:21:10 frhb56441ds sshd[8657]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:11 frhb56441ds sshd[8517]: Failed password for root from 68.183.128.56 port 36494 ssh2
+Feb 26 00:21:11 frhb56441ds sshd[8517]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:21:11 frhb56441ds sshd[8517]: Disconnecting authenticating user root 68.183.128.56 port 36494: Too many authenFeb 26 00:21:11 frhb56441ds sshd[8517]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:21:11 frhb56441ds sshd[8517]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:21:12 frhb56441ds sshd[8659]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:12 frhb56441ds sshd[8657]: Failed password for root from 42.192.37.232 port 50808 ssh2
+Feb 26 00:21:12 frhb56441ds sshd[8657]: Received disconnect from 42.192.37.232 port 50808:11: Bye Bye [preauth]
+Feb 26 00:21:12 frhb56441ds sshd[8657]: Disconnected from authenticating user root 42.192.37.232 port 50808 [preauth]
+Feb 26 00:21:13 frhb56441ds sshd[8659]: Failed password for root from 68.183.128.56 port 37298 ssh2
+Feb 26 00:21:15 frhb56441ds sshd[8659]: Failed password for root from 68.183.128.56 port 37298 ssh2
+Feb 26 00:21:17 frhb56441ds sshd[8659]: Failed password for root from 68.183.128.56 port 37298 ssh2
+Feb 26 00:21:19 frhb56441ds sshd[8659]: Failed password for root from 68.183.128.56 port 37298 ssh2
+Feb 26 00:21:20 frhb56441ds sshd[8663]: Connection closed by 80.93.83.116 port 56957 [preauth]
+Feb 26 00:21:21 frhb56441ds sshd[8659]: Failed password for root from 68.183.128.56 port 37298 ssh2
+Feb 26 00:21:23 frhb56441ds sshd[8659]: Failed password for root from 68.183.128.56 port 37298 ssh2
+Feb 26 00:21:23 frhb56441ds sshd[8659]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:21:23 frhb56441ds sshd[8659]: Disconnecting authenticating user root 68.183.128.56 port 37298: Too many authenFeb 26 00:21:23 frhb56441ds sshd[8659]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:21:23 frhb56441ds sshd[8659]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:21:24 frhb56441ds sshd[8667]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:25 frhb56441ds sshd[8667]: Failed password for root from 68.183.128.56 port 38066 ssh2
+Feb 26 00:21:27 frhb56441ds sshd[8667]: Failed password for root from 68.183.128.56 port 38066 ssh2
+Feb 26 00:21:29 frhb56441ds sshd[8667]: Failed password for root from 68.183.128.56 port 38066 ssh2
+Feb 26 00:21:30 frhb56441ds sudo[8669]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:21:30 frhb56441ds sudo[8669]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:21:30 frhb56441ds su[8670]: Successful su for root by root
+Feb 26 00:21:30 frhb56441ds su[8670]: + ??? root:root
+Feb 26 00:21:30 frhb56441ds su[8670]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:21:30 frhb56441ds systemd-logind[1138]: New session c5440 of user root.
+Feb 26 00:21:30 frhb56441ds systemd[1]: Started Session c5440 of user root.
+Feb 26 00:21:31 frhb56441ds sshd[8667]: Failed password for root from 68.183.128.56 port 38066 ssh2
+Feb 26 00:21:33 frhb56441ds su[8670]: pam_unix(su:session): session closed for user root
+Feb 26 00:21:33 frhb56441ds sudo[8669]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:21:33 frhb56441ds systemd-logind[1138]: Removed session c5440.
+Feb 26 00:21:33 frhb56441ds sshd[8667]: Failed password for root from 68.183.128.56 port 38066 ssh2
+Feb 26 00:21:36 frhb56441ds sshd[8667]: Failed password for root from 68.183.128.56 port 38066 ssh2
+Feb 26 00:21:36 frhb56441ds sshd[8667]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:21:36 frhb56441ds sshd[8667]: Disconnecting authenticating user root 68.183.128.56 port 38066: Too many authenFeb 26 00:21:36 frhb56441ds sshd[8667]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:21:36 frhb56441ds sshd[8667]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:21:36 frhb56441ds sshd[8805]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:38 frhb56441ds sshd[8805]: Failed password for root from 68.183.128.56 port 38912 ssh2
+Feb 26 00:21:40 frhb56441ds sshd[8805]: Failed password for root from 68.183.128.56 port 38912 ssh2
+Feb 26 00:21:42 frhb56441ds sshd[8805]: Failed password for root from 68.183.128.56 port 38912 ssh2
+Feb 26 00:21:44 frhb56441ds sshd[8805]: Failed password for root from 68.183.128.56 port 38912 ssh2
+Feb 26 00:21:47 frhb56441ds sshd[8805]: Failed password for root from 68.183.128.56 port 38912 ssh2
+Feb 26 00:21:48 frhb56441ds sshd[8805]: Failed password for root from 68.183.128.56 port 38912 ssh2
+Feb 26 00:21:48 frhb56441ds sshd[8805]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:21:48 frhb56441ds sshd[8805]: Disconnecting authenticating user root 68.183.128.56 port 38912: Too many authenFeb 26 00:21:48 frhb56441ds sshd[8805]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:21:48 frhb56441ds sshd[8805]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:21:49 frhb56441ds sshd[8809]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:51 frhb56441ds sshd[8809]: Failed password for root from 68.183.128.56 port 39726 ssh2
+Feb 26 00:21:52 frhb56441ds sshd[8811]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:53 frhb56441ds sshd[8809]: Failed password for root from 68.183.128.56 port 39726 ssh2
+Feb 26 00:21:55 frhb56441ds sshd[8811]: Failed password for root from 178.62.182.246 port 35570 ssh2
+Feb 26 00:21:55 frhb56441ds sshd[8811]: Received disconnect from 178.62.182.246 port 35570:11: Bye Bye [preauth]
+Feb 26 00:21:55 frhb56441ds sshd[8811]: Disconnected from authenticating user root 178.62.182.246 port 35570 [preauth]
+Feb 26 00:21:55 frhb56441ds sshd[8809]: Failed password for root from 68.183.128.56 port 39726 ssh2
+Feb 26 00:21:57 frhb56441ds sshd[8809]: Failed password for root from 68.183.128.56 port 39726 ssh2
+Feb 26 00:21:57 frhb56441ds sshd[8816]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:21:59 frhb56441ds sshd[8816]: Failed password for root from 138.68.176.38 port 56854 ssh2
+Feb 26 00:21:59 frhb56441ds sshd[8816]: Received disconnect from 138.68.176.38 port 56854:11: Bye Bye [preauth]
+Feb 26 00:21:59 frhb56441ds sshd[8816]: Disconnected from authenticating user root 138.68.176.38 port 56854 [preauth]
+Feb 26 00:21:59 frhb56441ds sshd[8809]: Failed password for root from 68.183.128.56 port 39726 ssh2
+Feb 26 00:22:00 frhb56441ds sudo[8818]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:22:00 frhb56441ds sudo[8818]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:22:00 frhb56441ds su[8819]: Successful su for root by root
+Feb 26 00:22:00 frhb56441ds su[8819]: + ??? root:root
+Feb 26 00:22:00 frhb56441ds su[8819]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:22:00 frhb56441ds systemd-logind[1138]: New session c5441 of user root.
+Feb 26 00:22:00 frhb56441ds systemd[1]: Started Session c5441 of user root.
+Feb 26 00:22:01 frhb56441ds sshd[8809]: Failed password for root from 68.183.128.56 port 39726 ssh2
+Feb 26 00:22:01 frhb56441ds sshd[8809]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:22:01 frhb56441ds sshd[8809]: Disconnecting authenticating user root 68.183.128.56 port 39726: Too many authenFeb 26 00:22:01 frhb56441ds sshd[8809]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:22:01 frhb56441ds sshd[8809]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:22:01 frhb56441ds sshd[8854]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:03 frhb56441ds su[8819]: pam_unix(su:session): session closed for user root
+Feb 26 00:22:03 frhb56441ds sudo[8818]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:22:03 frhb56441ds systemd-logind[1138]: Removed session c5441.
+Feb 26 00:22:03 frhb56441ds sshd[8854]: Failed password for root from 68.183.128.56 port 40506 ssh2
+Feb 26 00:22:03 frhb56441ds sshd[8902]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:06 frhb56441ds sshd[8854]: Failed password for root from 68.183.128.56 port 40506 ssh2
+Feb 26 00:22:06 frhb56441ds sshd[8958]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:06 frhb56441ds sshd[8902]: Failed password for root from 110.172.174.249 port 39914 ssh2
+Feb 26 00:22:06 frhb56441ds sshd[8902]: Received disconnect from 110.172.174.249 port 39914:11: Bye Bye [preauth]
+Feb 26 00:22:06 frhb56441ds sshd[8902]: Disconnected from authenticating user root 110.172.174.249 port 39914 [preauth]
+Feb 26 00:22:07 frhb56441ds sshd[8854]: Failed password for root from 68.183.128.56 port 40506 ssh2
+Feb 26 00:22:08 frhb56441ds sshd[8958]: Failed password for root from 113.31.119.122 port 48654 ssh2
+Feb 26 00:22:08 frhb56441ds sshd[8958]: Received disconnect from 113.31.119.122 port 48654:11: Bye Bye [preauth]
+Feb 26 00:22:08 frhb56441ds sshd[8958]: Disconnected from authenticating user root 113.31.119.122 port 48654 [preauth]
+Feb 26 00:22:09 frhb56441ds sshd[8854]: Failed password for root from 68.183.128.56 port 40506 ssh2
+Feb 26 00:22:11 frhb56441ds sshd[8960]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:11 frhb56441ds sshd[8854]: Failed password for root from 68.183.128.56 port 40506 ssh2
+Feb 26 00:22:12 frhb56441ds sshd[8960]: Failed password for root from 49.233.68.90 port 48004 ssh2
+Feb 26 00:22:13 frhb56441ds sshd[8960]: Received disconnect from 49.233.68.90 port 48004:11: Bye Bye [preauth]
+Feb 26 00:22:13 frhb56441ds sshd[8960]: Disconnected from authenticating user root 49.233.68.90 port 48004 [preauth]
+Feb 26 00:22:13 frhb56441ds sshd[8854]: Failed password for root from 68.183.128.56 port 40506 ssh2
+Feb 26 00:22:13 frhb56441ds sshd[8854]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:22:13 frhb56441ds sshd[8854]: Disconnecting authenticating user root 68.183.128.56 port 40506: Too many authenFeb 26 00:22:13 frhb56441ds sshd[8854]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:22:13 frhb56441ds sshd[8854]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:22:14 frhb56441ds sshd[8964]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:15 frhb56441ds sshd[8966]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:16 frhb56441ds sshd[8964]: Failed password for root from 68.183.128.56 port 41324 ssh2
+Feb 26 00:22:17 frhb56441ds sshd[8966]: Failed password for root from 116.113.17.210 port 49605 ssh2
+Feb 26 00:22:18 frhb56441ds sshd[8966]: Received disconnect from 116.113.17.210 port 49605:11: Bye Bye [preauth]
+Feb 26 00:22:18 frhb56441ds sshd[8966]: Disconnected from authenticating user root 116.113.17.210 port 49605 [preauth]
+Feb 26 00:22:18 frhb56441ds sshd[8968]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:19 frhb56441ds sshd[8964]: Failed password for root from 68.183.128.56 port 41324 ssh2
+Feb 26 00:22:19 frhb56441ds sshd[8970]: Connection closed by 80.93.83.116 port 60409 [preauth]
+Feb 26 00:22:20 frhb56441ds sshd[8968]: Failed password for root from 165.22.98.186 port 55240 ssh2
+Feb 26 00:22:20 frhb56441ds sshd[8968]: Received disconnect from 165.22.98.186 port 55240:11: Bye Bye [preauth]
+Feb 26 00:22:20 frhb56441ds sshd[8968]: Disconnected from authenticating user root 165.22.98.186 port 55240 [preauth]
+Feb 26 00:22:20 frhb56441ds sshd[8972]: Connection closed by 80.93.83.116 port 60443 [preauth]
+Feb 26 00:22:21 frhb56441ds sshd[8964]: Failed password for root from 68.183.128.56 port 41324 ssh2
+Feb 26 00:22:23 frhb56441ds sshd[8964]: Failed password for root from 68.183.128.56 port 41324 ssh2
+Feb 26 00:22:25 frhb56441ds sshd[8964]: Failed password for root from 68.183.128.56 port 41324 ssh2
+Feb 26 00:22:27 frhb56441ds sshd[8964]: Failed password for root from 68.183.128.56 port 41324 ssh2
+Feb 26 00:22:27 frhb56441ds sshd[8964]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:22:27 frhb56441ds sshd[8964]: Disconnecting authenticating user root 68.183.128.56 port 41324: Too many authenFeb 26 00:22:27 frhb56441ds sshd[8964]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:22:27 frhb56441ds sshd[8964]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:22:27 frhb56441ds sshd[8978]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:28 frhb56441ds sshd[8976]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:29 frhb56441ds sshd[8980]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:30 frhb56441ds sudo[8982]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:22:30 frhb56441ds sudo[8982]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:22:30 frhb56441ds su[8983]: Successful su for root by root
+Feb 26 00:22:30 frhb56441ds su[8983]: + ??? root:root
+Feb 26 00:22:30 frhb56441ds su[8983]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:22:30 frhb56441ds systemd-logind[1138]: New session c5442 of user root.
+Feb 26 00:22:30 frhb56441ds systemd[1]: Started Session c5442 of user root.
+Feb 26 00:22:30 frhb56441ds sshd[8978]: Failed password for root from 68.183.128.56 port 42202 ssh2
+Feb 26 00:22:30 frhb56441ds sshd[8980]: Failed password for root from 1.226.12.132 port 35934 ssh2
+Feb 26 00:22:30 frhb56441ds sshd[8976]: Failed password for root from 120.132.6.27 port 52655 ssh2
+Feb 26 00:22:31 frhb56441ds sshd[8976]: Received disconnect from 120.132.6.27 port 52655:11: Bye Bye [preauth]
+Feb 26 00:22:31 frhb56441ds sshd[8976]: Disconnected from authenticating user root 120.132.6.27 port 52655 [preauth]
+Feb 26 00:22:31 frhb56441ds sshd[8980]: Received disconnect from 1.226.12.132 port 35934:11: Bye Bye [preauth]
+Feb 26 00:22:31 frhb56441ds sshd[8980]: Disconnected from authenticating user root 1.226.12.132 port 35934 [preauth]
+Feb 26 00:22:31 frhb56441ds sshd[8978]: Failed password for root from 68.183.128.56 port 42202 ssh2
+Feb 26 00:22:33 frhb56441ds su[8983]: pam_unix(su:session): session closed for user root
+Feb 26 00:22:33 frhb56441ds sudo[8982]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:22:33 frhb56441ds systemd-logind[1138]: Removed session c5442.
+Feb 26 00:22:33 frhb56441ds sshd[8978]: Failed password for root from 68.183.128.56 port 42202 ssh2
+Feb 26 00:22:36 frhb56441ds sshd[8978]: Failed password for root from 68.183.128.56 port 42202 ssh2
+Feb 26 00:22:38 frhb56441ds sshd[8978]: Failed password for root from 68.183.128.56 port 42202 ssh2
+Feb 26 00:22:40 frhb56441ds sshd[8978]: Failed password for root from 68.183.128.56 port 42202 ssh2
+Feb 26 00:22:40 frhb56441ds sshd[8978]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:22:40 frhb56441ds sshd[8978]: Disconnecting authenticating user root 68.183.128.56 port 42202: Too many authenFeb 26 00:22:40 frhb56441ds sshd[8978]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:22:40 frhb56441ds sshd[8978]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:22:41 frhb56441ds sshd[9118]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:42 frhb56441ds sshd[9118]: Failed password for root from 68.183.128.56 port 42984 ssh2
+Feb 26 00:22:44 frhb56441ds sshd[9118]: Failed password for root from 68.183.128.56 port 42984 ssh2
+Feb 26 00:22:46 frhb56441ds sshd[9118]: Failed password for root from 68.183.128.56 port 42984 ssh2
+Feb 26 00:22:49 frhb56441ds sshd[9118]: Failed password for root from 68.183.128.56 port 42984 ssh2
+Feb 26 00:22:51 frhb56441ds sshd[9118]: Failed password for root from 68.183.128.56 port 42984 ssh2
+Feb 26 00:22:53 frhb56441ds sshd[9118]: Failed password for root from 68.183.128.56 port 42984 ssh2
+Feb 26 00:22:53 frhb56441ds sshd[9118]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:22:53 frhb56441ds sshd[9118]: Disconnecting authenticating user root 68.183.128.56 port 42984: Too many authenFeb 26 00:22:53 frhb56441ds sshd[9118]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:22:53 frhb56441ds sshd[9118]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:22:54 frhb56441ds sshd[9124]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:22:56 frhb56441ds sshd[9124]: Failed password for root from 68.183.128.56 port 43770 ssh2
+Feb 26 00:22:57 frhb56441ds sshd[9124]: Failed password for root from 68.183.128.56 port 43770 ssh2
+Feb 26 00:23:00 frhb56441ds sudo[9126]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:23:00 frhb56441ds sudo[9126]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:23:00 frhb56441ds su[9127]: Successful su for root by root
+Feb 26 00:23:00 frhb56441ds su[9127]: + ??? root:root
+Feb 26 00:23:00 frhb56441ds su[9127]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:23:00 frhb56441ds systemd-logind[1138]: New session c5443 of user root.
+Feb 26 00:23:00 frhb56441ds systemd[1]: Started Session c5443 of user root.
+Feb 26 00:23:00 frhb56441ds sshd[9124]: Failed password for root from 68.183.128.56 port 43770 ssh2
+Feb 26 00:23:02 frhb56441ds sshd[9124]: Failed password for root from 68.183.128.56 port 43770 ssh2
+Feb 26 00:23:03 frhb56441ds su[9127]: pam_unix(su:session): session closed for user root
+Feb 26 00:23:03 frhb56441ds sudo[9126]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:23:03 frhb56441ds systemd-logind[1138]: Removed session c5443.
+Feb 26 00:23:04 frhb56441ds sshd[9181]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:04 frhb56441ds sshd[9124]: Failed password for root from 68.183.128.56 port 43770 ssh2
+Feb 26 00:23:06 frhb56441ds sshd[9181]: Failed password for root from 117.196.195.60 port 63398 ssh2
+Feb 26 00:23:07 frhb56441ds sshd[9181]: Received disconnect from 117.196.195.60 port 63398:11: Bye Bye [preauth]
+Feb 26 00:23:07 frhb56441ds sshd[9181]: Disconnected from authenticating user root 117.196.195.60 port 63398 [preauth]
+Feb 26 00:23:07 frhb56441ds sshd[9124]: Failed password for root from 68.183.128.56 port 43770 ssh2
+Feb 26 00:23:07 frhb56441ds sshd[9124]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:23:07 frhb56441ds sshd[9124]: Disconnecting authenticating user root 68.183.128.56 port 43770: Too many authenFeb 26 00:23:07 frhb56441ds sshd[9124]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:23:07 frhb56441ds sshd[9124]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:23:08 frhb56441ds sshd[9264]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:10 frhb56441ds sshd[9264]: Failed password for root from 68.183.128.56 port 44552 ssh2
+Feb 26 00:23:10 frhb56441ds sshd[9266]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:12 frhb56441ds sshd[9264]: Failed password for root from 68.183.128.56 port 44552 ssh2
+Feb 26 00:23:12 frhb56441ds sshd[9266]: Failed password for root from 178.62.182.246 port 45403 ssh2
+Feb 26 00:23:12 frhb56441ds sshd[9266]: Received disconnect from 178.62.182.246 port 45403:11: Bye Bye [preauth]
+Feb 26 00:23:12 frhb56441ds sshd[9266]: Disconnected from authenticating user root 178.62.182.246 port 45403 [preauth]
+Feb 26 00:23:14 frhb56441ds sshd[9264]: Failed password for root from 68.183.128.56 port 44552 ssh2
+Feb 26 00:23:16 frhb56441ds sshd[9264]: Failed password for root from 68.183.128.56 port 44552 ssh2
+Feb 26 00:23:19 frhb56441ds sshd[9264]: Failed password for root from 68.183.128.56 port 44552 ssh2
+Feb 26 00:23:20 frhb56441ds sshd[9270]: Connection closed by 80.93.83.116 port 35735 [preauth]
+Feb 26 00:23:21 frhb56441ds sshd[9264]: Failed password for root from 68.183.128.56 port 44552 ssh2
+Feb 26 00:23:21 frhb56441ds sshd[9264]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:23:21 frhb56441ds sshd[9264]: Disconnecting authenticating user root 68.183.128.56 port 44552: Too many authenFeb 26 00:23:21 frhb56441ds sshd[9264]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:23:21 frhb56441ds sshd[9264]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:23:21 frhb56441ds sshd[9272]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:24 frhb56441ds sshd[9272]: Failed password for root from 68.183.128.56 port 45342 ssh2
+Feb 26 00:23:26 frhb56441ds sshd[9272]: Failed password for root from 68.183.128.56 port 45342 ssh2
+Feb 26 00:23:28 frhb56441ds sshd[9272]: Failed password for root from 68.183.128.56 port 45342 ssh2
+Feb 26 00:23:30 frhb56441ds sudo[9276]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:23:30 frhb56441ds sudo[9276]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:23:30 frhb56441ds su[9277]: Successful su for root by root
+Feb 26 00:23:30 frhb56441ds su[9277]: + ??? root:root
+Feb 26 00:23:30 frhb56441ds su[9277]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:23:30 frhb56441ds systemd-logind[1138]: New session c5444 of user root.
+Feb 26 00:23:30 frhb56441ds systemd[1]: Started Session c5444 of user root.
+Feb 26 00:23:30 frhb56441ds sshd[9272]: Failed password for root from 68.183.128.56 port 45342 ssh2
+Feb 26 00:23:32 frhb56441ds sshd[9272]: Failed password for root from 68.183.128.56 port 45342 ssh2
+Feb 26 00:23:33 frhb56441ds su[9277]: pam_unix(su:session): session closed for user root
+Feb 26 00:23:33 frhb56441ds sudo[9276]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:23:33 frhb56441ds systemd-logind[1138]: Removed session c5444.
+Feb 26 00:23:34 frhb56441ds sshd[9272]: Failed password for root from 68.183.128.56 port 45342 ssh2
+Feb 26 00:23:34 frhb56441ds sshd[9272]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:23:34 frhb56441ds sshd[9272]: Disconnecting authenticating user root 68.183.128.56 port 45342: Too many authenFeb 26 00:23:34 frhb56441ds sshd[9272]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:23:34 frhb56441ds sshd[9272]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:23:35 frhb56441ds sshd[9412]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:37 frhb56441ds sshd[9412]: Failed password for root from 68.183.128.56 port 46100 ssh2
+Feb 26 00:23:39 frhb56441ds sshd[9412]: Failed password for root from 68.183.128.56 port 46100 ssh2
+Feb 26 00:23:42 frhb56441ds sshd[9412]: Failed password for root from 68.183.128.56 port 46100 ssh2
+Feb 26 00:23:44 frhb56441ds sshd[9412]: Failed password for root from 68.183.128.56 port 46100 ssh2
+Feb 26 00:23:46 frhb56441ds sshd[9416]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:46 frhb56441ds sshd[9412]: Failed password for root from 68.183.128.56 port 46100 ssh2
+Feb 26 00:23:48 frhb56441ds sshd[9418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:48 frhb56441ds sshd[9416]: Failed password for root from 42.192.37.232 port 36156 ssh2
+Feb 26 00:23:49 frhb56441ds sshd[9416]: Received disconnect from 42.192.37.232 port 36156:11: Bye Bye [preauth]
+Feb 26 00:23:49 frhb56441ds sshd[9416]: Disconnected from authenticating user root 42.192.37.232 port 36156 [preauth]
+Feb 26 00:23:49 frhb56441ds sshd[9412]: Failed password for root from 68.183.128.56 port 46100 ssh2
+Feb 26 00:23:49 frhb56441ds sshd[9412]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:23:49 frhb56441ds sshd[9412]: Disconnecting authenticating user root 68.183.128.56 port 46100: Too many authenFeb 26 00:23:49 frhb56441ds sshd[9412]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:23:49 frhb56441ds sshd[9412]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:23:50 frhb56441ds sshd[9420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:23:50 frhb56441ds sshd[9418]: Failed password for root from 49.233.68.90 port 15603 ssh2
+Feb 26 00:23:51 frhb56441ds sshd[9418]: Received disconnect from 49.233.68.90 port 15603:11: Bye Bye [preauth]
+Feb 26 00:23:51 frhb56441ds sshd[9418]: Disconnected from authenticating user root 49.233.68.90 port 15603 [preauth]
+Feb 26 00:23:52 frhb56441ds sshd[9420]: Failed password for root from 68.183.128.56 port 46926 ssh2
+Feb 26 00:23:54 frhb56441ds sshd[9420]: Failed password for root from 68.183.128.56 port 46926 ssh2
+Feb 26 00:23:55 frhb56441ds sshd[9420]: Failed password for root from 68.183.128.56 port 46926 ssh2
+Feb 26 00:23:58 frhb56441ds sshd[9420]: Failed password for root from 68.183.128.56 port 46926 ssh2
+Feb 26 00:24:00 frhb56441ds sudo[9424]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:24:00 frhb56441ds sudo[9424]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:24:00 frhb56441ds su[9425]: Successful su for root by root
+Feb 26 00:24:00 frhb56441ds su[9425]: + ??? root:root
+Feb 26 00:24:00 frhb56441ds su[9425]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:24:00 frhb56441ds systemd-logind[1138]: New session c5445 of user root.
+Feb 26 00:24:00 frhb56441ds systemd[1]: Started Session c5445 of user root.
+Feb 26 00:24:00 frhb56441ds sshd[9420]: Failed password for root from 68.183.128.56 port 46926 ssh2
+Feb 26 00:24:02 frhb56441ds sshd[9420]: Failed password for root from 68.183.128.56 port 46926 ssh2
+Feb 26 00:24:02 frhb56441ds sshd[9420]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:24:02 frhb56441ds sshd[9420]: Disconnecting authenticating user root 68.183.128.56 port 46926: Too many authenFeb 26 00:24:02 frhb56441ds sshd[9420]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:24:02 frhb56441ds sshd[9420]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:24:03 frhb56441ds sshd[9476]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:03 frhb56441ds su[9425]: pam_unix(su:session): session closed for user root
+Feb 26 00:24:03 frhb56441ds sudo[9424]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:24:03 frhb56441ds systemd-logind[1138]: Removed session c5445.
+Feb 26 00:24:05 frhb56441ds sshd[9476]: Failed password for root from 68.183.128.56 port 47652 ssh2
+Feb 26 00:24:07 frhb56441ds sshd[9476]: Failed password for root from 68.183.128.56 port 47652 ssh2
+Feb 26 00:24:10 frhb56441ds sshd[9476]: Failed password for root from 68.183.128.56 port 47652 ssh2
+Feb 26 00:24:12 frhb56441ds sshd[9476]: Failed password for root from 68.183.128.56 port 47652 ssh2
+Feb 26 00:24:12 frhb56441ds sshd[9562]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:14 frhb56441ds sshd[9562]: Failed password for root from 1.226.12.132 port 33518 ssh2
+Feb 26 00:24:14 frhb56441ds sshd[9476]: Failed password for root from 68.183.128.56 port 47652 ssh2
+Feb 26 00:24:15 frhb56441ds sshd[9562]: Received disconnect from 1.226.12.132 port 33518:11: Bye Bye [preauth]
+Feb 26 00:24:15 frhb56441ds sshd[9562]: Disconnected from authenticating user root 1.226.12.132 port 33518 [preauth]
+Feb 26 00:24:16 frhb56441ds sshd[9476]: Failed password for root from 68.183.128.56 port 47652 ssh2
+Feb 26 00:24:16 frhb56441ds sshd[9476]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:24:16 frhb56441ds sshd[9476]: Disconnecting authenticating user root 68.183.128.56 port 47652: Too many authenFeb 26 00:24:16 frhb56441ds sshd[9476]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:24:16 frhb56441ds sshd[9476]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:24:17 frhb56441ds sshd[9568]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:18 frhb56441ds sshd[9566]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:19 frhb56441ds sshd[9570]: Connection closed by 80.93.83.116 port 39216 [preauth]
+Feb 26 00:24:20 frhb56441ds sshd[9568]: Failed password for root from 68.183.128.56 port 48474 ssh2
+Feb 26 00:24:20 frhb56441ds sshd[9572]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:20 frhb56441ds sshd[9566]: Failed password for root from 13.71.46.226 port 1024 ssh2
+Feb 26 00:24:20 frhb56441ds sshd[9566]: Received disconnect from 13.71.46.226 port 1024:11: Bye Bye [preauth]
+Feb 26 00:24:20 frhb56441ds sshd[9566]: Disconnected from authenticating user root 13.71.46.226 port 1024 [preauth]
+Feb 26 00:24:20 frhb56441ds sshd[9574]: Connection closed by 80.93.83.116 port 39269 [preauth]
+Feb 26 00:24:22 frhb56441ds sshd[9568]: Failed password for root from 68.183.128.56 port 48474 ssh2
+Feb 26 00:24:22 frhb56441ds sshd[9572]: Failed password for root from 138.68.176.38 port 41972 ssh2
+Feb 26 00:24:22 frhb56441ds sshd[9572]: Received disconnect from 138.68.176.38 port 41972:11: Bye Bye [preauth]
+Feb 26 00:24:22 frhb56441ds sshd[9572]: Disconnected from authenticating user root 138.68.176.38 port 41972 [preauth]
+Feb 26 00:24:25 frhb56441ds sshd[9568]: Failed password for root from 68.183.128.56 port 48474 ssh2
+Feb 26 00:24:25 frhb56441ds sshd[9578]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:26 frhb56441ds sshd[9568]: Failed password for root from 68.183.128.56 port 48474 ssh2
+Feb 26 00:24:26 frhb56441ds sshd[9578]: Failed password for root from 178.62.182.246 port 55237 ssh2
+Feb 26 00:24:26 frhb56441ds sshd[9578]: Received disconnect from 178.62.182.246 port 55237:11: Bye Bye [preauth]
+Feb 26 00:24:26 frhb56441ds sshd[9578]: Disconnected from authenticating user root 178.62.182.246 port 55237 [preauth]
+Feb 26 00:24:28 frhb56441ds sshd[9568]: Failed password for root from 68.183.128.56 port 48474 ssh2
+Feb 26 00:24:30 frhb56441ds sudo[9580]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:24:30 frhb56441ds sudo[9580]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:24:30 frhb56441ds su[9581]: Successful su for root by root
+Feb 26 00:24:30 frhb56441ds su[9581]: + ??? root:root
+Feb 26 00:24:30 frhb56441ds su[9581]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:24:30 frhb56441ds systemd-logind[1138]: New session c5446 of user root.
+Feb 26 00:24:30 frhb56441ds systemd[1]: Started Session c5446 of user root.
+Feb 26 00:24:30 frhb56441ds sshd[9568]: Failed password for root from 68.183.128.56 port 48474 ssh2
+Feb 26 00:24:30 frhb56441ds sshd[9568]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:24:30 frhb56441ds sshd[9568]: Disconnecting authenticating user root 68.183.128.56 port 48474: Too many authenFeb 26 00:24:30 frhb56441ds sshd[9568]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:24:30 frhb56441ds sshd[9568]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:24:30 frhb56441ds sshd[9607]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:32 frhb56441ds sshd[9607]: Failed password for root from 68.183.128.56 port 49262 ssh2
+Feb 26 00:24:33 frhb56441ds su[9581]: pam_unix(su:session): session closed for user root
+Feb 26 00:24:33 frhb56441ds sudo[9580]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:24:33 frhb56441ds systemd-logind[1138]: Removed session c5446.
+Feb 26 00:24:35 frhb56441ds sshd[9607]: Failed password for root from 68.183.128.56 port 49262 ssh2
+Feb 26 00:24:38 frhb56441ds sshd[9607]: Failed password for root from 68.183.128.56 port 49262 ssh2
+Feb 26 00:24:39 frhb56441ds sshd[9607]: Failed password for root from 68.183.128.56 port 49262 ssh2
+Feb 26 00:24:41 frhb56441ds sshd[9607]: Failed password for root from 68.183.128.56 port 49262 ssh2
+Feb 26 00:24:44 frhb56441ds sshd[9607]: Failed password for root from 68.183.128.56 port 49262 ssh2
+Feb 26 00:24:44 frhb56441ds sshd[9607]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:24:44 frhb56441ds sshd[9607]: Disconnecting authenticating user root 68.183.128.56 port 49262: Too many authenFeb 26 00:24:44 frhb56441ds sshd[9607]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:24:44 frhb56441ds sshd[9607]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:24:45 frhb56441ds sshd[9720]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:47 frhb56441ds sshd[9720]: Failed password for root from 68.183.128.56 port 50052 ssh2
+Feb 26 00:24:49 frhb56441ds sshd[9720]: Failed password for root from 68.183.128.56 port 50052 ssh2
+Feb 26 00:24:51 frhb56441ds sshd[9720]: Failed password for root from 68.183.128.56 port 50052 ssh2
+Feb 26 00:24:52 frhb56441ds sshd[9722]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:24:53 frhb56441ds sshd[9720]: Failed password for root from 68.183.128.56 port 50052 ssh2
+Feb 26 00:24:55 frhb56441ds sshd[9722]: Failed password for root from 116.113.17.210 port 38021 ssh2
+Feb 26 00:24:55 frhb56441ds sshd[9722]: Received disconnect from 116.113.17.210 port 38021:11: Bye Bye [preauth]
+Feb 26 00:24:55 frhb56441ds sshd[9722]: Disconnected from authenticating user root 116.113.17.210 port 38021 [preauth]
+Feb 26 00:24:56 frhb56441ds sshd[9720]: Failed password for root from 68.183.128.56 port 50052 ssh2
+Feb 26 00:24:58 frhb56441ds sshd[9720]: Failed password for root from 68.183.128.56 port 50052 ssh2
+Feb 26 00:24:58 frhb56441ds sshd[9720]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:24:58 frhb56441ds sshd[9720]: Disconnecting authenticating user root 68.183.128.56 port 50052: Too many authenFeb 26 00:24:58 frhb56441ds sshd[9720]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:24:58 frhb56441ds sshd[9720]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:24:58 frhb56441ds sshd[9726]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:00 frhb56441ds sudo[9728]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:25:00 frhb56441ds sudo[9728]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:25:00 frhb56441ds su[9730]: Successful su for root by root
+Feb 26 00:25:00 frhb56441ds su[9730]: + ??? root:root
+Feb 26 00:25:00 frhb56441ds systemd-logind[1138]: New session c5447 of user root.
+Feb 26 00:25:00 frhb56441ds su[9730]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:25:00 frhb56441ds systemd[1]: Started Session c5447 of user root.
+Feb 26 00:25:00 frhb56441ds sshd[9726]: Failed password for root from 68.183.128.56 port 50860 ssh2
+Feb 26 00:25:02 frhb56441ds sshd[9762]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:02 frhb56441ds sshd[9726]: Failed password for root from 68.183.128.56 port 50860 ssh2
+Feb 26 00:25:03 frhb56441ds su[9730]: pam_unix(su:session): session closed for user root
+Feb 26 00:25:03 frhb56441ds sudo[9728]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:25:03 frhb56441ds systemd-logind[1138]: Removed session c5447.
+Feb 26 00:25:03 frhb56441ds sshd[9762]: Failed password for root from 110.172.174.249 port 47894 ssh2
+Feb 26 00:25:03 frhb56441ds sshd[9762]: Received disconnect from 110.172.174.249 port 47894:11: Bye Bye [preauth]
+Feb 26 00:25:03 frhb56441ds sshd[9762]: Disconnected from authenticating user root 110.172.174.249 port 47894 [preauth]
+Feb 26 00:25:04 frhb56441ds sshd[9726]: Failed password for root from 68.183.128.56 port 50860 ssh2
+Feb 26 00:25:07 frhb56441ds sshd[9726]: Failed password for root from 68.183.128.56 port 50860 ssh2
+Feb 26 00:25:08 frhb56441ds sshd[9726]: Failed password for root from 68.183.128.56 port 50860 ssh2
+Feb 26 00:25:11 frhb56441ds sshd[9726]: Failed password for root from 68.183.128.56 port 50860 ssh2
+Feb 26 00:25:11 frhb56441ds sshd[9726]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:25:11 frhb56441ds sshd[9726]: Disconnecting authenticating user root 68.183.128.56 port 50860: Too many authenFeb 26 00:25:11 frhb56441ds sshd[9726]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:25:11 frhb56441ds sshd[9726]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:25:11 frhb56441ds sshd[9870]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:11 frhb56441ds sshd[9868]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:14 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:14 frhb56441ds sshd[9868]: Failed password for root from 116.92.219.162 port 34386 ssh2
+Feb 26 00:25:14 frhb56441ds sshd[9879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:14 frhb56441ds sshd[9868]: Received disconnect from 116.92.219.162 port 34386:11: Bye Bye [preauth]
+Feb 26 00:25:14 frhb56441ds sshd[9868]: Disconnected from authenticating user root 116.92.219.162 port 34386 [preauth]
+Feb 26 00:25:15 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:15 frhb56441ds sshd[9879]: Failed password for root from 120.132.6.27 port 44488 ssh2
+Feb 26 00:25:15 frhb56441ds sshd[9879]: Received disconnect from 120.132.6.27 port 44488:11: Bye Bye [preauth]
+Feb 26 00:25:15 frhb56441ds sshd[9879]: Disconnected from authenticating user root 120.132.6.27 port 44488 [preauth]
+Feb 26 00:25:17 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:19 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:20 frhb56441ds sshd[9881]: Connection closed by 80.93.83.116 port 42798 [preauth]
+Feb 26 00:25:21 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:23 frhb56441ds sshd[9883]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:23 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:23 frhb56441ds sshd[9870]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:25:23 frhb56441ds sshd[9870]: Disconnecting authenticating user root 68.183.128.56 port 51636: Too many authenFeb 26 00:25:23 frhb56441ds sshd[9870]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:25:23 frhb56441ds sshd[9870]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:25:24 frhb56441ds sshd[9887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:25 frhb56441ds sshd[9889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:25 frhb56441ds sshd[9883]: Failed password for root from 113.31.119.122 port 57600 ssh2
+Feb 26 00:25:25 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:26 frhb56441ds sshd[9883]: Received disconnect from 113.31.119.122 port 57600:11: Bye Bye [preauth]
+Feb 26 00:25:26 frhb56441ds sshd[9883]: Disconnected from authenticating user root 113.31.119.122 port 57600 [preauth]
+Feb 26 00:25:26 frhb56441ds sshd[9889]: Failed password for root from 49.233.68.90 port 39689 ssh2
+Feb 26 00:25:27 frhb56441ds sshd[9889]: Received disconnect from 49.233.68.90 port 39689:11: Bye Bye [preauth]
+Feb 26 00:25:27 frhb56441ds sshd[9889]: Disconnected from authenticating user root 49.233.68.90 port 39689 [preauth]
+Feb 26 00:25:27 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:29 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:30 frhb56441ds sudo[9891]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:25:30 frhb56441ds sudo[9891]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:25:30 frhb56441ds su[9892]: Successful su for root by root
+Feb 26 00:25:30 frhb56441ds su[9892]: + ??? root:root
+Feb 26 00:25:30 frhb56441ds su[9892]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:25:30 frhb56441ds systemd-logind[1138]: New session c5448 of user root.
+Feb 26 00:25:30 frhb56441ds systemd[1]: Started Session c5448 of user root.
+Feb 26 00:25:31 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:33 frhb56441ds su[9892]: pam_unix(su:session): session closed for user root
+Feb 26 00:25:33 frhb56441ds sudo[9891]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:25:33 frhb56441ds systemd-logind[1138]: Removed session c5448.
+Feb 26 00:25:33 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:35 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:35 frhb56441ds sshd[9887]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:25:35 frhb56441ds sshd[9887]: Disconnecting authenticating user root 68.183.128.56 port 52446: Too many authenFeb 26 00:25:35 frhb56441ds sshd[9887]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:25:35 frhb56441ds sshd[9887]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:25:36 frhb56441ds sshd[10028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:37 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:39 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:42 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:44 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:44 frhb56441ds sshd[10032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:46 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:46 frhb56441ds sshd[10032]: Failed password for root from 178.62.182.246 port 36837 ssh2
+Feb 26 00:25:46 frhb56441ds sshd[10032]: Received disconnect from 178.62.182.246 port 36837:11: Bye Bye [preauth]
+Feb 26 00:25:46 frhb56441ds sshd[10032]: Disconnected from authenticating user root 178.62.182.246 port 36837 [preauth]
+Feb 26 00:25:48 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:48 frhb56441ds sshd[10028]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:25:48 frhb56441ds sshd[10028]: Disconnecting authenticating user root 68.183.128.56 port 53314: Too many autheFeb 26 00:25:48 frhb56441ds sshd[10028]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:25:48 frhb56441ds sshd[10028]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:25:48 frhb56441ds sshd[10034]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:50 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:51 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:53 frhb56441ds sshd[10038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:54 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:54 frhb56441ds sshd[10036]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:55 frhb56441ds sshd[10038]: Failed password for root from 1.226.12.132 port 59342 ssh2
+Feb 26 00:25:55 frhb56441ds sshd[10038]: Received disconnect from 1.226.12.132 port 59342:11: Bye Bye [preauth]
+Feb 26 00:25:55 frhb56441ds sshd[10038]: Disconnected from authenticating user root 1.226.12.132 port 59342 [preauth]
+Feb 26 00:25:56 frhb56441ds sshd[10036]: Failed password for root from 165.22.98.186 port 41272 ssh2
+Feb 26 00:25:56 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:56 frhb56441ds sshd[10036]: Received disconnect from 165.22.98.186 port 41272:11: Bye Bye [preauth]
+Feb 26 00:25:56 frhb56441ds sshd[10036]: Disconnected from authenticating user root 165.22.98.186 port 41272 [preauth]
+Feb 26 00:25:57 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:59 frhb56441ds sshd[10042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:00 frhb56441ds sudo[10044]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/soFeb 26 00:26:00 frhb56441ds sudo[10044]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:26:00 frhb56441ds su[10045]: Successful su for root by root
+Feb 26 00:26:00 frhb56441ds su[10045]: + ??? root:root
+Feb 26 00:26:00 frhb56441ds su[10045]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:26:00 frhb56441ds systemd-logind[1138]: New session c5449 of user root.
+Feb 26 00:26:00 frhb56441ds systemd[1]: Started Session c5449 of user root.
+Feb 26 00:26:00 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:26:00 frhb56441ds sshd[10034]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:00 frhb56441ds sshd[10034]: Disconnecting authenticating user root 68.183.128.56 port 54114: Too many autheFeb 26 00:26:00 frhb56441ds sshd[10034]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:00 frhb56441ds sshd[10034]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:00 frhb56441ds sshd[10071]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:01 frhb56441ds sshd[10042]: Failed password for root from 117.196.195.60 port 63265 ssh2
+Feb 26 00:26:01 frhb56441ds sshd[10042]: Received disconnect from 117.196.195.60 port 63265:11: Bye Bye [preauth]
+Feb 26 00:26:01 frhb56441ds sshd[10042]: Disconnected from authenticating user root 117.196.195.60 port 63265 [preauth]
+Feb 26 00:26:02 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:03 frhb56441ds su[10045]: pam_unix(su:session): session closed for user root
+Feb 26 00:26:03 frhb56441ds sudo[10044]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:26:03 frhb56441ds systemd-logind[1138]: Removed session c5449.
+Feb 26 00:26:04 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:06 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:08 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:09 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:11 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:11 frhb56441ds sshd[10071]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:11 frhb56441ds sshd[10071]: Disconnecting authenticating user root 68.183.128.56 port 54916: Too many autheFeb 26 00:26:11 frhb56441ds sshd[10071]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:11 frhb56441ds sshd[10071]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:12 frhb56441ds sshd[10183]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:13 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:15 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:17 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:19 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:19 frhb56441ds sshd[10187]: Connection closed by 80.93.83.116 port 46239 [preauth]
+Feb 26 00:26:20 frhb56441ds sshd[10189]: Connection closed by 80.93.83.116 port 46273 [preauth]
+Feb 26 00:26:21 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:23 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:23 frhb56441ds sshd[10183]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:23 frhb56441ds sshd[10183]: Disconnecting authenticating user root 68.183.128.56 port 55632: Too many autheFeb 26 00:26:23 frhb56441ds sshd[10183]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:23 frhb56441ds sshd[10183]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:24 frhb56441ds sshd[10195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:24 frhb56441ds sshd[10193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:25 frhb56441ds sshd[10197]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:25 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Failed password for root from 123.155.214.241 port 35301 ssh2
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Received disconnect from 123.155.214.241 port 35301:11: Bye Bye [preauth]
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Disconnected from authenticating user root 123.155.214.241 port 35301 [preauth]Feb 26 00:26:27 frhb56441ds sshd[10197]: Failed password for root from 42.192.37.232 port 49738 ssh2
+Feb 26 00:26:27 frhb56441ds sshd[10197]: Received disconnect from 42.192.37.232 port 49738:11: Bye Bye [preauth]
+Feb 26 00:26:27 frhb56441ds sshd[10197]: Disconnected from authenticating user root 42.192.37.232 port 49738 [preauth]
+Feb 26 00:26:28 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:30 frhb56441ds sudo[10199]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/soFeb 26 00:26:30 frhb56441ds sudo[10199]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:26:30 frhb56441ds su[10200]: Successful su for root by root
+Feb 26 00:26:30 frhb56441ds su[10200]: + ??? root:root
+Feb 26 00:26:30 frhb56441ds su[10200]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:26:30 frhb56441ds systemd-logind[1138]: New session c5450 of user root.
+Feb 26 00:26:30 frhb56441ds systemd[1]: Started Session c5450 of user root.
+Feb 26 00:26:30 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:31 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:33 frhb56441ds su[10200]: pam_unix(su:session): session closed for user root
+Feb 26 00:26:33 frhb56441ds sudo[10199]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:26:33 frhb56441ds systemd-logind[1138]: Removed session c5450.
+Feb 26 00:26:33 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:35 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:35 frhb56441ds sshd[10195]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:35 frhb56441ds sshd[10195]: Disconnecting authenticating user root 68.183.128.56 port 56464: Too many autheFeb 26 00:26:35 frhb56441ds sshd[10195]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:35 frhb56441ds sshd[10195]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:36 frhb56441ds sshd[10335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:37 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:39 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:42 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:42 frhb56441ds sshd[10337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:43 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:43 frhb56441ds sshd[10337]: Failed password for root from 138.68.176.38 port 55324 ssh2
+Feb 26 00:26:43 frhb56441ds sshd[10337]: Received disconnect from 138.68.176.38 port 55324:11: Bye Bye [preauth]
+Feb 26 00:26:43 frhb56441ds sshd[10337]: Disconnected from authenticating user root 138.68.176.38 port 55324 [preauth]
+Feb 26 00:26:45 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:46 frhb56441ds sshd[10341]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:47 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:47 frhb56441ds sshd[10335]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:47 frhb56441ds sshd[10335]: Disconnecting authenticating user root 68.183.128.56 port 57296: Too many autheFeb 26 00:26:47 frhb56441ds sshd[10335]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:47 frhb56441ds sshd[10335]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:48 frhb56441ds sshd[10341]: Failed password for root from 182.254.151.2 port 37000 ssh2
+Feb 26 00:26:48 frhb56441ds sshd[10341]: Received disconnect from 182.254.151.2 port 37000:11: Bye Bye [preauth]
+Feb 26 00:26:48 frhb56441ds sshd[10341]: Disconnected from authenticating user root 182.254.151.2 port 37000 [preauth]
+Feb 26 00:26:48 frhb56441ds sshd[10343]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:50 frhb56441ds systemd[1]: Stopping Solana TdS node...
+Feb 26 00:26:50 frhb56441ds sshd[10343]: Failed password for root from 68.183.128.56 port 58152 ssh2
+Feb 26 00:26:51 frhb56441ds systemd[1]: solana.service: Main process exited, code=dumped, status=3/QUIT
+Feb 26 00:26:51 frhb56441ds systemd[1]: solana.service: Failed with result 'core-dump'.
+Feb 26 00:26:51 frhb56441ds systemd[1]: Stopped Solana TdS node.
+Feb 26 00:26:51 frhb56441ds systemd[1]: Started Solana TdS node.
+Feb 26 00:26:51 frhb56441ds solana-validator[10350]: log file: /root/solana/solana.log
+Feb 26 00:26:52 frhb56441ds sshd[10343]: Failed password for root from 68.183.128.56 port 58152 ssh2
+Feb 26 00:26:54 frhb56441ds sshd[10343]: Failed password for root from 68.183.128.56 port 58152 ssh2
+Feb 26 00:26:56 frhb56441ds sshd[10343]: Failed password for root from 68.183.128.56 port 58152 ssh2
+Feb 26 00:26:58 frhb56441ds sshd[10343]: Failed password for root from 68.183.128.56 port 58152 ssh2
+Feb 26 00:26:59 frhb56441ds sshd[10395]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:27:00 frhb56441ds sudo[10586]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/soFeb 26 00:27:00 frhb56441ds sudo[10586]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:27:00 frhb56441ds su[10587]: Successful su for root by root
+Feb 26 00:27:00 frhb56441ds su[10587]: + ??? root:root
+Feb 26 00:27:00 frhb56441ds su[10587]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:27:00 frhb56441ds systemd-logind[1138]: New session c5451 of user root.
+Feb 26 00:27:00 frhb56441ds systemd[1]: Started Session c5451 of user root.
+Feb 26 00:27:00 frhb56441ds su[10587]: pam_unix(su:session): session closed for user root
+Feb 26 00:27:00 frhb56441ds sudo[10586]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:27:00 frhb56441ds telegraf[24128]: 2021-02-25T23:27:00Z E! [inputs.exec] Error in plugin: exec: exit status 1
+Feb 26 00:27:00 frhb56441ds systemd-logind[1138]: Removed session c5451.
+Feb 26 00:27:00 frhb56441ds sshd[10343]: Failed password for root from 68.183.128.56 port 58152 ssh2
+Feb 26 00:27:00 frhb56441ds sshd[10343]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:27:00 frhb56441ds sshd[10343]: Disconnecting authenticating user root 68.183.128.56 port 58152: Too many autheFeb 26 00:27:00 frhb56441ds sshd[10343]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:27:00 frhb56441ds sshd[10343]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:27:00 frhb56441ds sshd[10702]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:27:01 frhb56441ds sshd[10398]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:27:02 frhb56441ds sshd[10395]: Failed password for root from 49.233.68.90 port 63765 ssh2
+Feb 26 00:27:02 frhb56441ds sshd[10395]: Received disconnect from 49.233.68.90 port 63765:11: Bye Bye [preauth]
+Feb 26 00:27:02 frhb56441ds sshd[10395]: Disconnected from authenticating user root 49.233.68.90 port 63765 [preauth]
+Feb 26 00:27:02 frhb56441ds sshd[10398]: Failed password for root from 178.62.182.246 port 46671 ssh2
+Feb 26 00:27:02 frhb56441ds sshd[10398]: Received disconnect from 178.62.182.246 port 46671:11: Bye Bye [preauth]
+Feb 26 00:27:02 frhb56441ds sshd[10398]: Disconnected from authenticating user root 178.62.182.246 port 46671 [preauth]
+Feb 26 00:27:02 frhb56441ds sshd[10702]: Failed password for root from 68.183.128.56 port 58990 ssh2
+Feb 26 00:27:04 frhb56441ds sshd[10702]: Failed password for root from 68.183.128.56 port 58990 ssh2
+Feb 26 00:27:07 frhb56441ds sshd[10702]: Failed password for root from 68.183.128.56 port 58990 ssh2
+Feb 26 00:27:09 frhb56441ds sshd[10702]: Failed password for root from 68.183.128.56 port 58990 ssh2
+Feb 26 00:27:10 frhb56441ds sshd[10702]: Failed password for root from 68.183.128.56 port 58990 ssh2
+Feb 26 00:25:14 frhb56441ds sshd[9879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:14 frhb56441ds sshd[9868]: Received disconnect from 116.92.219.162 port 34386:11: Bye Bye [preauth]
+Feb 26 00:25:14 frhb56441ds sshd[9868]: Disconnected from authenticating user root 116.92.219.162 port 34386 [preauth]
+Feb 26 00:25:15 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:15 frhb56441ds sshd[9879]: Failed password for root from 120.132.6.27 port 44488 ssh2
+Feb 26 00:25:15 frhb56441ds sshd[9879]: Received disconnect from 120.132.6.27 port 44488:11: Bye Bye [preauth]
+Feb 26 00:25:15 frhb56441ds sshd[9879]: Disconnected from authenticating user root 120.132.6.27 port 44488 [preauth]
+Feb 26 00:25:17 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:19 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:20 frhb56441ds sshd[9881]: Connection closed by 80.93.83.116 port 42798 [preauth]
+Feb 26 00:25:21 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:23 frhb56441ds sshd[9883]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:23 frhb56441ds sshd[9870]: Failed password for root from 68.183.128.56 port 51636 ssh2
+Feb 26 00:25:23 frhb56441ds sshd[9870]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:25:23 frhb56441ds sshd[9870]: Disconnecting authenticating user root 68.183.128.56 port 51636: Too many authenFeb 26 00:25:23 frhb56441ds sshd[9870]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:25:23 frhb56441ds sshd[9870]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:25:24 frhb56441ds sshd[9887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:25 frhb56441ds sshd[9889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruserFeb 26 00:25:25 frhb56441ds sshd[9883]: Failed password for root from 113.31.119.122 port 57600 ssh2
+Feb 26 00:25:25 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:26 frhb56441ds sshd[9883]: Received disconnect from 113.31.119.122 port 57600:11: Bye Bye [preauth]
+Feb 26 00:25:26 frhb56441ds sshd[9883]: Disconnected from authenticating user root 113.31.119.122 port 57600 [preauth]
+Feb 26 00:25:26 frhb56441ds sshd[9889]: Failed password for root from 49.233.68.90 port 39689 ssh2
+Feb 26 00:25:27 frhb56441ds sshd[9889]: Received disconnect from 49.233.68.90 port 39689:11: Bye Bye [preauth]
+Feb 26 00:25:27 frhb56441ds sshd[9889]: Disconnected from authenticating user root 49.233.68.90 port 39689 [preauth]
+Feb 26 00:25:27 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:29 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:30 frhb56441ds sudo[9891]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/solFeb 26 00:25:30 frhb56441ds sudo[9891]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:25:30 frhb56441ds su[9892]: Successful su for root by root
+Feb 26 00:25:30 frhb56441ds su[9892]: + ??? root:root
+Feb 26 00:25:30 frhb56441ds su[9892]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:25:30 frhb56441ds systemd-logind[1138]: New session c5448 of user root.
+Feb 26 00:25:30 frhb56441ds systemd[1]: Started Session c5448 of user root.
+Feb 26 00:25:31 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:33 frhb56441ds su[9892]: pam_unix(su:session): session closed for user root
+Feb 26 00:25:33 frhb56441ds sudo[9891]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:25:33 frhb56441ds systemd-logind[1138]: Removed session c5448.
+Feb 26 00:25:33 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:35 frhb56441ds sshd[9887]: Failed password for root from 68.183.128.56 port 52446 ssh2
+Feb 26 00:25:35 frhb56441ds sshd[9887]: error: maximum authentication attempts exceeded for root from 68.183.128.56 portFeb 26 00:25:35 frhb56441ds sshd[9887]: Disconnecting authenticating user root 68.183.128.56 port 52446: Too many authenFeb 26 00:25:35 frhb56441ds sshd[9887]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=6Feb 26 00:25:35 frhb56441ds sshd[9887]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:25:36 frhb56441ds sshd[10028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:37 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:39 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:42 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:44 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:44 frhb56441ds sshd[10032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:46 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:46 frhb56441ds sshd[10032]: Failed password for root from 178.62.182.246 port 36837 ssh2
+Feb 26 00:25:46 frhb56441ds sshd[10032]: Received disconnect from 178.62.182.246 port 36837:11: Bye Bye [preauth]
+Feb 26 00:25:46 frhb56441ds sshd[10032]: Disconnected from authenticating user root 178.62.182.246 port 36837 [preauth]
+Feb 26 00:25:48 frhb56441ds sshd[10028]: Failed password for root from 68.183.128.56 port 53314 ssh2
+Feb 26 00:25:48 frhb56441ds sshd[10028]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:25:48 frhb56441ds sshd[10028]: Disconnecting authenticating user root 68.183.128.56 port 53314: Too many autheFeb 26 00:25:48 frhb56441ds sshd[10028]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:25:48 frhb56441ds sshd[10028]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:25:48 frhb56441ds sshd[10034]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:50 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:51 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:53 frhb56441ds sshd[10038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:54 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:54 frhb56441ds sshd[10036]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:25:55 frhb56441ds sshd[10038]: Failed password for root from 1.226.12.132 port 59342 ssh2
+Feb 26 00:25:55 frhb56441ds sshd[10038]: Received disconnect from 1.226.12.132 port 59342:11: Bye Bye [preauth]
+Feb 26 00:25:55 frhb56441ds sshd[10038]: Disconnected from authenticating user root 1.226.12.132 port 59342 [preauth]
+Feb 26 00:25:56 frhb56441ds sshd[10036]: Failed password for root from 165.22.98.186 port 41272 ssh2
+Feb 26 00:25:56 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:56 frhb56441ds sshd[10036]: Received disconnect from 165.22.98.186 port 41272:11: Bye Bye [preauth]
+Feb 26 00:25:56 frhb56441ds sshd[10036]: Disconnected from authenticating user root 165.22.98.186 port 41272 [preauth]
+Feb 26 00:25:57 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:25:59 frhb56441ds sshd[10042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:00 frhb56441ds sudo[10044]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/soFeb 26 00:26:00 frhb56441ds sudo[10044]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:26:00 frhb56441ds su[10045]: Successful su for root by root
+Feb 26 00:26:00 frhb56441ds su[10045]: + ??? root:root
+Feb 26 00:26:00 frhb56441ds su[10045]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:26:00 frhb56441ds systemd-logind[1138]: New session c5449 of user root.
+Feb 26 00:26:00 frhb56441ds systemd[1]: Started Session c5449 of user root.
+Feb 26 00:26:00 frhb56441ds sshd[10034]: Failed password for root from 68.183.128.56 port 54114 ssh2
+Feb 26 00:26:00 frhb56441ds sshd[10034]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:00 frhb56441ds sshd[10034]: Disconnecting authenticating user root 68.183.128.56 port 54114: Too many autheFeb 26 00:26:00 frhb56441ds sshd[10034]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:00 frhb56441ds sshd[10034]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:00 frhb56441ds sshd[10071]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:01 frhb56441ds sshd[10042]: Failed password for root from 117.196.195.60 port 63265 ssh2
+Feb 26 00:26:01 frhb56441ds sshd[10042]: Received disconnect from 117.196.195.60 port 63265:11: Bye Bye [preauth]
+Feb 26 00:26:01 frhb56441ds sshd[10042]: Disconnected from authenticating user root 117.196.195.60 port 63265 [preauth]
+Feb 26 00:26:02 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:03 frhb56441ds su[10045]: pam_unix(su:session): session closed for user root
+Feb 26 00:26:03 frhb56441ds sudo[10044]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:26:03 frhb56441ds systemd-logind[1138]: Removed session c5449.
+Feb 26 00:26:04 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:06 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:08 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:09 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:11 frhb56441ds sshd[10071]: Failed password for root from 68.183.128.56 port 54916 ssh2
+Feb 26 00:26:11 frhb56441ds sshd[10071]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:11 frhb56441ds sshd[10071]: Disconnecting authenticating user root 68.183.128.56 port 54916: Too many autheFeb 26 00:26:11 frhb56441ds sshd[10071]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:11 frhb56441ds sshd[10071]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:12 frhb56441ds sshd[10183]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:13 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:15 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:17 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:19 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:19 frhb56441ds sshd[10187]: Connection closed by 80.93.83.116 port 46239 [preauth]
+Feb 26 00:26:20 frhb56441ds sshd[10189]: Connection closed by 80.93.83.116 port 46273 [preauth]
+Feb 26 00:26:21 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:23 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:23 frhb56441ds sshd[10183]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:23 frhb56441ds sshd[10183]: Disconnecting authenticating user root 68.183.128.56 port 55632: Too many autheFeb 26 00:26:23 frhb56441ds sshd[10183]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:23 frhb56441ds sshd[10183]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:24 frhb56441ds sshd[10195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:24 frhb56441ds sshd[10193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:25 frhb56441ds sshd[10197]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:25 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Failed password for root from 123.155.214.241 port 35301 ssh2
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Received disconnect from 123.155.214.241 port 35301:11: Bye Bye [preauth]
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Disconnected from authenticating user root 123.155.214.241 port 35301 [preauth]Feb 26 00:26:27 frhb56441ds sshd[10197]: Failed password for root from 42.192.37.232 port 49738 ssh2
+Feb 26 00:26:27 frhb56441ds sshd[10197]: Received disconnect from 42.192.37.232 port 49738:11: Bye Bye [preauth]
+Feb 26 00:26:27 frhb56441ds sshd[10197]: Disconnected from authenticating user root 42.192.37.232 port 49738 [preauth]
+Feb 26 00:26:28 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:30 frhb56441ds sudo[10199]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/soFeb 26 00:26:30 frhb56441ds sudo[10199]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:26:30 frhb56441ds su[10200]: Successful su for root by root
+Feb 26 00:26:30 frhb56441ds su[10200]: + ??? root:root
+Feb 26 00:26:30 frhb56441ds su[10200]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:26:30 frhb56441ds systemd-logind[1138]: New session c5450 of user root.
+Feb 26 00:26:30 frhb56441ds systemd[1]: Started Session c5450 of user root.
+Feb 26 00:26:30 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:31 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:33 frhb56441ds su[10200]: pam_unix(su:session): session closed for user root
+Feb 26 00:26:33 frhb56441ds sudo[10199]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:26:33 frhb56441ds systemd-logind[1138]: Removed session c5450.
+Feb 26 00:26:33 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:35 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:20 frhb56441ds sshd[10189]: Connection closed by 80.93.83.116 port 46273 [preauth]
+Feb 26 00:26:21 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:23 frhb56441ds sshd[10183]: Failed password for root from 68.183.128.56 port 55632 ssh2
+Feb 26 00:26:23 frhb56441ds sshd[10183]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:23 frhb56441ds sshd[10183]: Disconnecting authenticating user root 68.183.128.56 port 55632: Too many autheFeb 26 00:26:23 frhb56441ds sshd[10183]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:23 frhb56441ds sshd[10183]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:24 frhb56441ds sshd[10195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:24 frhb56441ds sshd[10193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:25 frhb56441ds sshd[10197]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:25 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Failed password for root from 123.155.214.241 port 35301 ssh2
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Received disconnect from 123.155.214.241 port 35301:11: Bye Bye [preauth]
+Feb 26 00:26:26 frhb56441ds sshd[10193]: Disconnected from authenticating user root 123.155.214.241 port 35301 [preauth]Feb 26 00:26:27 frhb56441ds sshd[10197]: Failed password for root from 42.192.37.232 port 49738 ssh2
+Feb 26 00:26:27 frhb56441ds sshd[10197]: Received disconnect from 42.192.37.232 port 49738:11: Bye Bye [preauth]
+Feb 26 00:26:27 frhb56441ds sshd[10197]: Disconnected from authenticating user root 42.192.37.232 port 49738 [preauth]
+Feb 26 00:26:28 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:30 frhb56441ds sudo[10199]: telegraf : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/su -c /root/solana/soFeb 26 00:26:30 frhb56441ds sudo[10199]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 26 00:26:30 frhb56441ds su[10200]: Successful su for root by root
+Feb 26 00:26:30 frhb56441ds su[10200]: + ??? root:root
+Feb 26 00:26:30 frhb56441ds su[10200]: pam_unix(su:session): session opened for user root by (uid=0)
+Feb 26 00:26:30 frhb56441ds systemd-logind[1138]: New session c5450 of user root.
+Feb 26 00:26:30 frhb56441ds systemd[1]: Started Session c5450 of user root.
+Feb 26 00:26:30 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:31 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:33 frhb56441ds su[10200]: pam_unix(su:session): session closed for user root
+Feb 26 00:26:33 frhb56441ds sudo[10199]: pam_unix(sudo:session): session closed for user root
+Feb 26 00:26:33 frhb56441ds systemd-logind[1138]: Removed session c5450.
+Feb 26 00:26:33 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:35 frhb56441ds sshd[10195]: Failed password for root from 68.183.128.56 port 56464 ssh2
+Feb 26 00:26:35 frhb56441ds sshd[10195]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:35 frhb56441ds sshd[10195]: Disconnecting authenticating user root 68.183.128.56 port 56464: Too many autheFeb 26 00:26:35 frhb56441ds sshd[10195]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:35 frhb56441ds sshd[10195]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:36 frhb56441ds sshd[10335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:37 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:39 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:42 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:42 frhb56441ds sshd[10337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:43 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:43 frhb56441ds sshd[10337]: Failed password for root from 138.68.176.38 port 55324 ssh2
+Feb 26 00:26:43 frhb56441ds sshd[10337]: Received disconnect from 138.68.176.38 port 55324:11: Bye Bye [preauth]
+Feb 26 00:26:43 frhb56441ds sshd[10337]: Disconnected from authenticating user root 138.68.176.38 port 55324 [preauth]
+Feb 26 00:26:45 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:46 frhb56441ds sshd[10341]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:47 frhb56441ds sshd[10335]: Failed password for root from 68.183.128.56 port 57296 ssh2
+Feb 26 00:26:47 frhb56441ds sshd[10335]: error: maximum authentication attempts exceeded for root from 68.183.128.56 porFeb 26 00:26:47 frhb56441ds sshd[10335]: Disconnecting authenticating user root 68.183.128.56 port 57296: Too many autheFeb 26 00:26:47 frhb56441ds sshd[10335]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=Feb 26 00:26:47 frhb56441ds sshd[10335]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb 26 00:26:48 frhb56441ds sshd[10341]: Failed password for root from 182.254.151.2 port 37000 ssh2
+Feb 26 00:26:48 frhb56441ds sshd[10341]: Received disconnect from 182.254.151.2 port 37000:11: Bye Bye [preauth]
+Feb 26 00:26:48 frhb56441ds sshd[10341]: Disconnected from authenticating user root 182.254.151.2 port 37000 [preauth]
+Feb 26 00:26:48 frhb56441ds sshd[10343]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruseFeb 26 00:26:50 frhb56441ds systemd[1]: Stopping Solana TdS node...
+Feb 26 00:26:50 frhb56441ds sshd[10343]: Failed password for root from 68.183.128.56 port 58152 ssh2
+Feb 26 00:26:51 frhb56441ds systemd[1]: solana.service: Main process exited, code=dumped, status=3/QUIT
+Feb 26 00:26:51 frhb56441ds systemd[1]: solana.service: Failed with result 'core-dump'.
+Feb 26 00:26:51 frhb56441ds systemd[1]: Stopped Solana TdS node.
+Feb 26 00:26:51 frhb56441ds systemd[1]: Started Solana TdS node.
+Feb 26 00:26:51 frhb56441ds solana-validator[10350]: log file: /root/solana/solana.log
